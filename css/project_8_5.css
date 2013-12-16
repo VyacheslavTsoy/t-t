@@ -1,0 +1,44 @@
+.project_8-5{
+	width: 1024px;
+}
+.project_8-5__top{
+	margin: 45px 0 75px 25px; 
+}
+.project_8-5__title_1{
+	font-size: 32px;
+	color: #676767;
+}
+.project_8-5__title_1_red{
+	color: red;
+}
+.eight{
+	font-size: 44px;
+	display: inline-block;
+	margin-top: -11px;
+}
+/*==============>top end<================*/
+.project_8-5__content{
+	position: relative;
+	text-align: justify;
+	font-size: 13px;
+}
+.project_8-5__left_text{
+	width: 205px;
+	padding-left: 25px;
+	float: left;
+}
+.project_8-5__right_img{
+	float: right;
+	margin: 9px 125px 0 0;
+}
+.right_images{
+	width: 521px;
+}
+.project_8-5__logo_bot{
+	position: absolute;
+	left: 0;
+	bottom: 24px;
+}
+.logo_img{
+	width: 130px;
+}

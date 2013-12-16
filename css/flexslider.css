@@ -1,0 +1,60 @@
+
+#slider.flexslider {position: relative; height: 100%;width: 100%;overflow-x: hidden;}
+.flex-viewport {width: 100%;height: 100%;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+.slides{
+	height: 100%;
+}
+
+/* Direction Nav */
+.flex-direction-nav a {width: 30px; height: 30px; margin: 0px 0 0; display: block;  position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
+.flex-direction-nav .flex-prev {left: -36px;}
+.flexslider:hover .flex-next {right: 5px;}
+.flexslider:hover .flex-prev {left: 5px;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {}
+.flex-direction-nav .disabled {cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {position: absolute; text-align: center;}
+.flex-control-nav li {display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: url('') repeat;cursor: pointer; text-indent: -9999px;}
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active{ background-position:0 0;}
+
+#carousel:after{
+	display: block;
+	position: absolute;
+	bottom: -50px;
+	height: 50px;
+	width: 100%;
+	left: 0;
+	content: "";
+}
+
+#carousel .slides li {float: left; margin: 0 27px 0 0px;}
+#carousel img {width: 175px; height: 131px; border: 6px solid transparent; border-top-width: 5px; border-radius: 3px; display: block; cursor: pointer;}
+
+#carousel .flex-active-slide img,
+#carousel img:hover{
+	border-color: #9c0000;
+}
+
+#slider .slides>li{
+	height: 100% !important;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	overflow-x: hidden;
+}
+#slider .flex-active-slide{
+	overflow-y: auto;
+}
+
+#carousel{
+	position: absolute; right: 0; padding: 18px 22px 16px; top: -187px; z-index: 10; left: 0; background: #ff0000;border-bottom: 11px solid #d60000;
+}
+#carousel:hover{
+	top: 0;
+}

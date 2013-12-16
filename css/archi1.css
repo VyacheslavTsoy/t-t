@@ -1,0 +1,49 @@
+.archi1{
+	width: 1024px;
+}
+.archi1__top{
+	margin: 44px 0 17px 25px;
+	word-spacing: -3px;
+}
+.archi1__title_1{
+	font-size: 32px;
+	color: #464646;
+}
+.archi1__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+.archi1__content{
+	position: relative;
+	background: url("../images/archi1_bg.png") right bottom no-repeat;
+	-webkit-background-size: 1024px;
+	background-size: 1024px;
+	padding-left: 25px;
+	font-size: 13px;
+	line-height: 15px;
+	text-align: justify;
+}
+.archi1__item{
+	float: left;
+	width: 206px;
+	margin-left: 50px;
+}
+.archi1__item:first-child{
+	margin-left: 0;
+}
+.archi1__title_2{
+	font-size: 16px;
+	margin: 15px 0;
+	color: #484848;
+	font-style: italic;
+	font-weight: bold;
+}
+.archi1__title_2:first-child{
+	margin:0 0 15px 0;
+}
+.archi1__logo_bot{
+	float: left;
+}
+.logo_img{
+	width: 130px;
+}

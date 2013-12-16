@@ -1,0 +1,33 @@
+.project8-4_topic{
+	margin: 55px 0 0 27px;
+	font-family:"helveticaneuecyrthin", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 17px;
+	color:#464646;
+}
+.project8-4_topic>span{
+	color: #ff0000;
+}
+.project8-4{
+	background: url(../images/project8-4_fon.jpg);
+	background-size:cover;
+}
+.project8-4_logotip_img{
+	width: 129px;
+	position: absolute;
+	margin-top: -79px;
+}
+.project8-4_text{color:#292e31;
+	text-align: justify;
+	font-size: 13px;
+	line-height: 15px;
+	margin-top: 87px;
+}
+.project8-4_text_left{
+	width: 207px; 
+}
+.project8-4_text_right{
+	width: 207px;
+	margin-left: 52px;
+	margin-right: 24px;
+}

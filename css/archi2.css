@@ -1,0 +1,44 @@
+.archi2{
+	background: url('../images/background_archi2.jpg') no-repeat;
+	background-size: 1024px;
+	height: 768px;
+	font-size: 13px;
+	line-height: 15px;
+}
+.archi2__top{
+	margin: 43px 0 26px 25px;
+}
+.archi2__title_1{
+	font-size: 32px;
+	line-height: 40px;
+	color: #464646;
+}
+.archi2__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+.archi2__text{
+	width: 539px;
+	background: url('../images/background_text_archi2.png');
+	padding: 29px 125px 33px 85px;
+	color: #464646;
+	margin: 0 0 0 144px;
+	text-align: justify;
+}
+.archi2__title_2{
+	font-size: 16px;
+	line-height: 17px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #484848;
+}
+.archi2__title_2:first-child{
+	margin:0 0 10px 0;
+}
+.archi2__logo_bot{
+	margin-top: 10px;
+}
+.logo_img{
+	width: 130px;
+}

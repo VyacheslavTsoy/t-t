@@ -1,0 +1,472 @@
+@import "../css/reset.css";
+@import "../css/project_8_1.css";
+@import "../css/project_8-2.css";
+@import "../css/project_8_3.css";
+@import "../css/project_8-4.css";
+@import "../css/project_8_5.css";
+@import "../css/project_8-6.css";
+@import "../css/project_8_7.css";
+@import "../css/archi1.css";
+@import "../css/archi2.css";
+@import "../css/about_awards.css";
+@import "../fonts/fonts.css";
+@import "../css/flexslider.css";
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+/* Global properties ======================================================== */
+html,
+body{
+  height: 100%;
+}
+
+html{width:100%}
+
+body{
+  font-family:"helveticaneuecyrthin", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size:12px;
+  line-height:;
+  color:#666;
+  min-width:960px;
+  background:#fff;
+  -webkit-text-size-adjust: none;
+}
+
+/*----------------------> Basic Classes <------------------*/
+.reg {text-transform:uppercase}
+.f_left {float:left}
+.f_right {float:right}
+.al_right {text-align:right}
+.al_center {text-align:center}
+
+.it{font-style:italic}
+.let{letter-spacing:-1px}
+
+/*----------------------> Indents Zero <------------------*/
+
+.m_bot_zero{ margin-bottom:0 !important;}
+.m_left_zero{ margin-left:0 !important;}
+.p_bot_zero{ padding-bottom:0 !important;}
+.p_left_zero{ padding-left:0 !important;}
+
+/*----------------------> Positions <------------------*/
+.p_abs{position: absolute;}
+.p_rel{position: relative;}
+.p_fix{position: fixed;}
+.clear {clear:both;width:100%;line-height:0;font-size:0;}
+.wrapper {overflow:hidden;width: 100%;}
+.ext_wrapper {overflow:hidden;}
+
+.f_elem *:first-child{margin-top: 0 !important;}
+.f_elem1 *:first-child{margin-top: 0 !important;border: none !important;}
+
+.bg_none{ background:none !important;}
+
+/*----------------------> Displays <------------------*/
+
+.d_block{ display:block;}
+.d_in-block{ display:inline-block;}
+
+/*----------------------> Basic Colors <------------------*/
+
+.num_wrap{
+  display: inline-block;
+  font-size: 44px;
+  margin-top: -4px;
+}
+
+
+/*----------------------> Links And buttons <------------------*/
+a {
+  color:#;
+  outline:none;
+  text-decoration:none;
+  cursor:pointer;
+}
+a:hover{
+  color:#;
+  text-decoration:none;
+}
+
+.button{
+  display:inline-block;
+  padding:0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: px;
+  line-height: px;
+  color:#;
+ }
+.button:hover{
+  background:;
+  color:#000;
+}
+
+
+h1.logo{
+  position: relative;
+  left: 0;
+  top: 14px;
+  width: 346px;
+  height: 168px;
+  font-size: 23px;
+  line-height: 29px;
+}
+  h1.logo a {
+    display:block;
+    width:346px;
+    height:178px;
+    background:url(../images/logo.png) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-decoration:none;
+    text-indent:-9999px;
+  }
+  .logo_label{
+    text-transform: uppercase;
+    color: #ff2600;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 70px;
+    left: 96%;
+  }
+
+
+/*=====================> Content ========================*/
+#content {padding:0px 0px 0px 0px; min-height: 1500px;}
+.cont_pad{padding:0 0 0 0 !important;}
+
+/*=====================> Home Page ========================*/
+
+.home_page{
+  background: url("../images/item1_bg.jpg") 50% 50% no-repeat;
+  color: #fff;
+}
+
+  .home_banner{
+    width: 464px;
+    padding: 0 30px 0 0;
+    bottom: 45px;
+    right: 0;
+    position: absolute;
+  }
+   
+    .home_banner__title{
+      font-size: 44px;
+      line-height: 46px;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+      .home_banner__title span{
+        padding: 4px 8px 0 4px;
+      }
+    
+    .home_banner__content{
+      font-size: 16px;
+      letter-spacing: 1px;
+      line-height: 23px;
+    }
+
+    .txt_bg{
+      display: inline-block;
+      background-color: #464646;
+    }
+    .txt_bg1{
+      background-color: #464646;
+    }
+
+
+/*=====================> Navigation Help Page ========================*/
+  .navhelp_wrap{
+    padding: 47px 0 0 92px;
+    font-size: 16px;
+  }
+    
+    .navhelp_col{
+      float: left;
+      width: 453px;
+    }
+
+      .navhelp_list1{
+
+      }
+        .navhelp_list1>li{
+          margin-top: 0px;
+          min-height: 101px;
+        }
+        .navhelp_list1>li.li{
+          padding-top: 10px;
+        }
+        .navhelp_list1>li:first-child,
+        .navhelp_list2>li:first-child{
+          margin-top: 0;
+        }
+
+          .navhelp_list1>li>div,
+          .navhelp_list1>li>figure,
+          .navhelp_list2>li>div,
+          .navhelp_list2>li>figure{
+            display: table-cell;
+            vertical-align: middle;
+          }
+          .navhelp_list1>li>figure{
+            width: 98px;
+            text-align: center;
+          }
+          .navhelp_list1>li>div{
+            width: 150px;
+            padding-left: 39px;
+          }
+
+      .navhelp_list2{
+        padding-right: 50px;
+      }
+        .navhelp_list2>li{
+          margin-top: 70px;
+        }
+          .navhelp_list2>li>div{
+            padding-left: 23px;
+          }
+          .navhelp_list2 .spec_box{
+            padding-bottom: 43px;
+          }
+  
+  .nav_img1{
+    width: 99px;
+    height: 77px;
+  }
+
+  .nav_img2{
+    width: 31px;
+  }
+
+  .nav_img3{
+    width: 243px;
+  }
+
+
+
+
+
+
+/*=====================> Paragraphs ========================*/
+
+p {margin-bottom:18px}
+.p2{ margin-bottom:10px;}
+.p3{ margin-bottom:0;}
+.p4{ margin-bottom:0;}
+.p5{ margin-bottom:0;}
+.p6{ margin-bottom:0;}
+
+
+/*=====================> Lists ========================*/
+.list1{}
+.list1 li{
+  background:url(../images/marker1.png) 0 7px no-repeat;
+  padding-left:20px;
+}
+.list1 a{}
+
+.list2{}
+.list2 li{
+  background:url(../images/marker2.png) 0 7px no-repeat;
+  padding-left:20px;
+}
+.list2 a{}
+
+.list3{}
+.list3 li{
+  background:url(../images/marker3.png) 0 7px no-repeat;
+  padding-left:20px;
+}
+.list3 a{}
+
+/*=====================> Titles ========================*/
+h2,h3,h4{
+  font-weight:normal;
+}
+.title1{
+  font-size: px;
+  line-height: px;
+  color:#;
+}
+
+.title2{
+  font-size: px;
+  line-height: px;
+  color:#;
+}
+
+.t_ind{ margin-bottom:px;}
+.t_ind1{ margin-bottom:px;}
+.t_ind2{ margin-bottom:px;}
+
+/*================================>> GOOGLE FONTS  <<========================================*/
+
+
+
+/*================================>> hovers <<========================================*/
+a,
+#carousel img{
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+a:hover,
+#carousel img:hover{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#carousel{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+/*================================>> Contact Form <<========================================*/
+#contact-form {
+  padding:0px 0 0 0;
+  position: relative;
+}
+#contact-form .success
+{
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left:0;
+  z-index: 99;
+  background: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px 0;
+}
+#contact-form textarea, #contact-form input {
+  margin:0;
+  font-size:12px;
+  border:1px solid #e7e7e7;
+  color:#969696;
+  padding:7px 10px;
+  outline:none;
+  position:relative;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#contact-form input {
+  width:347px;
+}
+#contact-form textarea {
+  overflow:auto;
+  width:433px;
+  height:172px;
+  resize:none;
+  float:left;
+  margin: 0 0 0 0;
+}
+  
+#contact-form label {
+  display:inline-block;
+  position: relative;
+  min-height:45px;
+  overflow:hidden;
+ }
+#contact-form label.message {
+  display:block;
+  padding-bottom:0;
+}
+#contact-form .button {
+  margin-left:8px;
+}
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}
+#contact-form .error, #contact-form .empty {
+  text-align:left;
+  color:red;
+  font-size:11px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+#contact-form .buttons2 {
+  overflow:hidden;
+  text-align:right;
+  position:relative;
+  clear:both;
+  padding-top:25px;
+}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+	text-align:center;
+}
+#contact-form span{
+  display:block;
+  margin: 0px 0 0 5px;
+ }
+
+.map_wrapper{
+  overflow:hidden;
+  display:inline-block;
+  margin-bottom:26px;
+}
+
+
+/*================================>> Contacts Info <<========================================*/
+#map_canvas {
+   width:411px;
+   height:237px;
+}
+.adress{}
+.adress span{
+  display:inline-block;
+  width:74px;
+}
+.adress dt{ margin-bottom:14px;}
+
+.demo{}
+.demo:hover{ text-decoration:underline;}
+/*
+<dl class="adress">
+  <dt><strong>8901 Marmora Road,<br>Glasgow, D04 89GR.</strong></dt>
+  <dd><span>Freephone:</span>+1 800 559 6580</dd>
+  <dd><span>Telephone:</span>+1 800 603 6035</dd>
+  <dd><span>FAX:</span>+1 800 889 9898</dd>
+  <dd>E-mail: <a href="#" class="demo">mail@demolink.org</a></dd>
+</dl>
+<div class="social">
+	<a href="#" title="RSS"><img src="images/soc1.png" alt=""></a>
+	<a href="#" title="Twitter"><img src="images/soc2.png" alt=""></a>
+	<a href="#" title="Facebook"><img src="images/soc3.png" alt=""></a>
+	<a href="#" title="Google +"><img src="images/soc4.png" alt=""></a>
+</div>
+*/
+
+/*================================>> Footer <<========================================*/
+footer {
+  padding:22px 0 26px;
+}
+footer .social{
+  overflow:hidden;
+}
+footer .social a{
+  display:block;
+  float:left;
+  width:32px;
+  height:32px;
+  overflow:hidden;
+  margin-left:8px;
+}
+footer .social a:first-child{margin: 0 0 0 0;}
+footer .social a:hover img{
+  margin-top:-32px;
+}

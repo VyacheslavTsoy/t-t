@@ -1,0 +1,56 @@
+
+.top{
+	margin: 44px 0 80px 0;
+}
+.title_1{
+	font-size: 32px;
+	color: #676767;
+}
+.title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+.content{
+	position: relative;
+	padding-bottom: 100px;
+}
+.ab_awards_right{
+	margin: 1px 0 0 98px;
+}
+.ab_awards_right_bot{
+	margin: 34px 0 0 98px;
+}
+.ab_awards_item_img{
+	float: left;
+	width: 124px;
+	margin-left: 52px;
+}
+.ab_awards_item_text{
+	float: left;
+	width: 205px;
+	margin-left: 60px;
+}
+.yamaha_img{
+	width: 124px;
+}
+.ab_awards_item_img2, .ab_awards_item_img3{
+	float: left;
+}
+.office_awards_img{
+	width: 139px;
+}
+.golden_essay_img{
+	width: 139px;
+}
+.title_2{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.logo_bot{
+	position: absolute;
+	left: 0;
+	bottom: 22px;
+}
+.logo_img{
+	width: 130px;
+}

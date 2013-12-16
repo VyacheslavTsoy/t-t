@@ -1,0 +1,51 @@
+/*==============> always<===================*/
+.project_8_3{
+	width: 1024px;
+	background: url('../images/background 8_3.jpg') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.project_8_3__top{
+	margin: 46px 0 65px 24px;
+}
+.project_8_3__title_1{
+	font-size: 32px;
+	color: #464646;
+}
+.project_8_3__title_1_red{
+	color: red;
+}
+.eight{
+	font-size: 44px;
+	display: inline-block;
+	margin-top: -11px;
+}
+/*==============>top end<================*/
+
+.project_8_3__text{
+	width: 211px;
+	text-align: justify;
+	position: absolute;
+	right: 250px;
+	bottom: 0;
+	background: url('../images/background_text_8_3.png');
+	padding: 35px 23px 3px 23px;
+	color: #e6e6e6;
+	font-size: 13px;
+	margin: 61px 0 0 512px;
+}
+.project_8_3__text_p{
+	margin-bottom: 10px;
+}
+
+.project_8_3__logo_bot{
+	position: absolute;
+	left: 0;
+	bottom: 24px;
+}
+.logo_img{
+	width: 130px;
+}
+.project_8_3__logo_bot_link:hover .logo_img{
+	opacity: 0.8;
+}
