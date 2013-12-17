@@ -1,0 +1,86 @@
+/*==============> always<===================*/
+.about_clients{
+	font-size: 13px;
+	line-height: 15px;
+	text-align: justify;
+}
+.about_clients__top{
+	margin: 46px 0 17px 0;
+}
+.about_clients__title_1{
+	font-size: 32px;
+	line-height: 39px;
+	color: #464646;
+}
+.about_clients__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+.about_clients__content{
+	color: #464646;
+	padding-bottom: 50px;
+}
+.about_clients__first_block1{
+	width: 204px;
+	margin: 28px 0 0 0;
+}
+.about_clients__list_top_item{
+	width: 220px;
+	float: left;
+	margin: 0 0 0 36px;
+}
+.about_clients__list_top_item:first-child{
+	margin-left: 26px; 
+}
+.about_clients__list_top_item_text, .about_clients__list_bot_item_text{
+	margin-bottom: 10px;
+}
+.about_clients__list_top_item_title, .about_clients__list_bot_item_title{
+	color: red;
+	font-size: 14px;
+	font-style: italic;
+	margin: 0 0 5px 0;
+}
+.width_img1{
+	width: 60px;
+}
+.width_img2{
+	width: 79px;
+}
+.width_img3{
+	width: 100px;
+}
+.width_img4{
+	margin: 0 0 0 1px;
+	width: 90px;
+}
+.width_img5{
+	width: 84px;
+}
+.width_img6{
+	width: 63px;
+	margin-left: -4px;
+}
+.width_img7{
+	width: 100px;
+	margin-left: -1px;
+}
+.about_clients__first_block2{
+	margin-top: 26px;
+	width: 204px;
+}
+.about_clients__list_bot_item{
+	width: 220px;
+	float: left;
+	margin: 25px  0 0 36px;
+}
+.about_clients__list_bot_item:first-child{
+	margin-left: 26px
+}
+/*==============>content end<================*/
+.footer{
+	margin-top: 10px;
+}
+.logo_img{
+	width: 130px;
+}

@@ -1,0 +1,57 @@
+.roofpoint{
+	text-align: justify;
+	font-size: 13px;
+	line-height: 15px;
+}
+.roofpoint__top{
+	margin: 48px 0 20px 0;
+}
+.roofpoint__title_1{
+	font-size: 32px;
+	line-height: 39px;
+	color: #464646;
+}
+.roofpoint__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+.roofpoint__content{
+	position: relative;
+	padding-bottom: 25px;
+}
+.roofpoint__text{
+	margin-bottom: 10px;
+}
+.roofpoint__content_left{
+	float: left;
+	width: 206px;
+	margin-right: 51px;
+}
+.roofpoint__content_center{
+	float: left;
+	width: 464px;
+}
+.roofpoint__text_center{
+	width: 210px; 
+}
+.type1{
+	width: 464px;
+	margin-top: 15px;
+}
+.type2{
+	width: 206px;
+	margin-top: 15px;
+}
+.roofpoint__content_right{
+	float: right;
+	width: 206px;
+	margin-right: 26px;
+}
+.roofpoint__logo_bot{
+	position: absolute;
+	left: 0;
+	bottom: 19px;
+}
+.logo_img{
+	width: 130px;
+}

@@ -1,0 +1,48 @@
+/*==============> always<===================*/
+
+.about_profile__top{
+	margin: 46px 0 79px 25px;
+}
+.about_profile__title_1{
+	font-size: 32px;
+	color: #464646;
+}
+.about_profile__title_1_red{
+	color: red;
+}
+.eight{
+	font-size: 44px;
+	display: inline-block;
+	margin-top: -11px;
+}
+.about_profile__left{
+	width: 75%;
+	margin: 0;
+	float: left;
+}
+.about_profile__content{
+	margin: 0 0 0 72px;
+}
+.about_profile__img{
+	width: 639px;
+}
+.about_profile__text{
+	margin: 360px 24px 0px 24px;
+	font-size: 12px;
+	line-height: 15px; 
+	color:#ececec;
+}
+.about_profile__right{
+	height: 768px;
+	width: 25%;
+	text-align: justify;
+	background-color: #464646;
+	float: right;
+}
+.about_profile__logo_bot{
+	float: left;
+	margin-top: 81px;
+}
+.logo_img{
+	width: 130px;
+}

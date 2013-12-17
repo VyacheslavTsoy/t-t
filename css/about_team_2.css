@@ -1,0 +1,87 @@
+
+.about_team_2__top{
+	margin: 45px 0 7px 0;
+}
+.about_team_2__title_1{
+	font-size: 32px;
+	color: #464646;
+}
+.about_team_2__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+.about_team_2__content{
+	position: relative;
+	font-size: 13px;
+}
+.about_us_1, .about_us_2, .about_us_3, .about_us_4{
+	width: 225px;
+	color: #464646;
+	float: left;
+	text-align: left;
+}
+.about_us_1{
+	margin: 72px 31px 0 0;
+}
+.about_us_2{
+	margin: 178px 31px 0 0;
+}
+.about_us_3{
+	margin: 46px 31px 0 0;
+}
+.about_us_4{
+	margin-top: 60px;
+}
+.about_team_2__name{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.post{
+	font-size: 14px;
+	color: red;
+	font-style: italic;
+	margin-bottom: 7px;
+}
+.about_us_text{
+	margin-bottom: 10px;
+}
+.about_company{
+	width: 463px;
+	color: #e6e6e6;
+	margin: 16px 0 0 100px;
+	padding-left: 400px;
+	background: url("../images/quotes_img.png") no-repeat 344px 3%;
+	background-size: 33px;
+}
+.text_words{
+	color: #fff;
+    background-color: #464646;
+	font-size: 19px;
+	padding: 0px 4px;
+	margin-top: 5px;
+	line-height: 23px;
+}
+.about_us_img1{
+	width: 204px;
+	margin-top: 10px;
+}
+.about_us_img2{
+	width: 205px;
+	margin-top: 10px;
+}
+.about_us_img3{
+	width: 221px;
+	margin-top: 10px;
+}
+.about_us_img4{
+	width: 204px;
+	margin-top: 10px;
+}
+.logo_bot{
+	position: absolute;
+	left: 0;
+	bottom: 24px;
+}
+.logo_img{
+	width: 130px;
+}

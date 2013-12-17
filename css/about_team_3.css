@@ -1,0 +1,90 @@
+/*==============> always<===================*/
+.about_team_3{
+	font-size: 14px;
+	line-height: 18px;
+}
+.about_team_3__top{
+	margin: 44px 0 59px 0;
+}
+.about_team_3__title_1{
+	font-size: 32px;
+	line-height: 40px;
+	color: #464646;
+}
+.about_team_3__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+
+.about_team_3__content_left{
+	position: relative;
+	width: 767px;
+	float: left;
+	background: url("../images/about_team_3_img.jpg") no-repeat 0 100%;
+	background-size: 746px;
+	height: 624px;
+}
+.about_team_3__content_right{
+	width: 224px;
+	float: left;
+	margin-top: 85px;
+}
+.about_team_3__text_top{
+	width: 463px;
+	color: #e6e6e6;
+	margin: 16px 0 0 100px;
+	padding-left: 80px;
+	background: url("../images/quotes_img.png") no-repeat 0 3%;
+	background-size: 33px;
+}
+.about_team_3__text_words{
+    background-color: #464646;
+	font-size: 19px;
+	margin-top: 5px;
+	line-height: 23px;
+}
+.about_team_3__plus1{
+	position: absolute;
+	top: 375px;
+	left: 231px;
+}
+.about_team_3__plus2{
+	position: absolute;
+	top: 231px;
+	left: 240px;
+}
+.about_team_3__plus3{
+	position: absolute;
+	top: 195px;
+	right: 285px;
+}
+.about_team_3__images{
+	width: 36px;
+}
+.about_truhanov__title_name{
+	margin-top: 10px;
+	font-size: 18px;
+	color: #464646;
+}
+.about_team_3__red{
+	color: #ff0909;
+	margin: 10px 0;
+}
+.about_team_3__plus_images{
+	width: 35px;
+}
+.about_team_3__logo_bot{
+	margin-top: 368px;
+}
+.logo_img{
+	width: 130px;
+}
+.about_team_3__title_name{
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.about_team_3__red{
+	font-size: 14px;
+	font-style: italic;
+}

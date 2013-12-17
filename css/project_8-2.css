@@ -1,17 +1,12 @@
-.project_8_2{
-	width: 1024px;
-}
+/*==============> always<===================*/
 .project_8_2__top{
-	margin: 48px 0 78px 0;
+	margin: 43px 0 81px 0;
 }
 .project_8_2__img_top{
 	position: relative;
 }
 .lightbox{
 	position: absolute;
-}
-.project_8-2__plus{
-	width: 36px;
 }
 .project_8_2__title_1{
 	font-size: 32px;
@@ -20,29 +15,49 @@
 .project_8_2__title_1_red{
 	color: red;
 }
+.eight{
+	font-size: 44px;
+	display: inline-block;
+	margin-top: -11px;
+}
 .project_8_2__left{
 	width: 75%;
 	margin: 0;
 	float: left;
 }
 .project_8_2__content{
-	margin: 0 0 0 100px;
+	margin: 0 0 0 122px;
 }
 
-.pr_8_2_top, .pr_8_2_bot{
+.pr_8_2_top{
 	width: 517px;
 }
-.project_8_2__img_bot{
-	margin-top: 40px;
+.pr_8_2_bot{
+	width: 511px;
+	padding-left: 5px;
+}
+.project_8_2__img_top{
 	position: relative;
 }
-.lightbox{
-	top: -10px;
-	right: 140px;
-
+.project_8_2__img_bot{
+	margin-top: 32px;
+	position: relative;
+}
+.project_8-2__plus_top{
+	position: absolute;
+	top: -17px;
+	right: 147px;
+}
+.project_8-2__plus_bot{
+	position: absolute;
+	top: -16px;
+	right: 147px;
+}
+.project_8-2__plus{
+	width: 35px;
 }
 .project_8_2__text{
-	margin: 136px 24px 0px 24px;
+	margin: 160px 24px 0px 24px;
 	font-size: 12px;
 	line-height: 15px; 
 	color:#ececec;
@@ -54,7 +69,6 @@
 	text-align: justify;
 	float: right;
 }
-/*==============>content end<================*/
 .project_8_2__logo_bot{
 	float: left;
 	margin-top: 50px;

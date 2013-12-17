@@ -1,0 +1,126 @@
+.about_truhanov{
+	font-size: 13px;
+	line-height: 17px;
+}
+.about_truhanov .red{
+	font-style: italic;
+}
+.about_truhanov__top{
+	margin: 46px 0 60px 25px;
+}
+.about_truhanov__title_1{
+	font-size: 32px;
+	line-height: 39px;
+	color: #464646;
+}
+.about_truhanov__title_1_red{
+	color: red;
+}
+/*==============>top end<================*/
+
+.about_truhanov__content_left{
+	width: 767px;
+	float: left;
+}
+.about_truhanov__content_right{
+	width: 224px;
+	float: left;
+}
+.about_truhanov__text_top{
+	width: 463px;
+	color: #e6e6e6;
+	margin: 16px 0 0 100px;
+	padding-left: 80px;
+	background: url("../images/quotes_img.png") no-repeat 0 3%;
+	background-size: 33px;
+}
+.about_truhanov__text_words{
+    background-color: #464646;
+	font-size: 19px;
+	padding: 0px 4px;
+	margin-top: 5px;
+	line-height: 24px;
+}
+.about_truhanov__text_bottom{
+	width: 600px;
+	margin: 50px 0 0 100px;
+}
+.bg_2008{
+	display: block;
+	padding: 10px 0 3px 80px;
+	background: url("../images/img_2008.png") no-repeat 0 6%;
+	background-size: 58px;
+}
+.bg_2010{
+	display: block;
+	background: url("../images/img_2010.png") no-repeat 0 8%;
+	background-size: 58px; 
+	padding: 10px 0 0 80px;
+}
+.bg_2013{
+	display: block;
+	background: url("../images/img_2013.png") no-repeat;
+	background-size: 58px; 
+	padding: 10px 0 0 80px;
+}
+.about_truhanov__text_pad_left{
+	display: block;
+	padding: 10px 0 0 80px;
+}
+
+/*=======================> left end<================*/
+.about_truhanov__title_name{
+	margin-top: 10px;
+	font-size: 18px;
+	color: #464646;
+}
+.red{
+	color: #ff0909;
+	margin: 10px 0;
+}
+.about_truhanov__img{
+	position: relative;
+	margin: 98px 0 0 10px;
+}
+.about_truhanov__plus{
+	display: block;
+	position: absolute;
+	top: 89px;
+	left: -15px;
+}
+.about_truhanov_men{
+	width: 197px;
+}
+.about_truhanov__plus_images{
+	width: 35px;
+}
+.about_truhanov__logo_bot{
+	margin-top: 50px;
+}
+.logo_img{
+	width: 130px;
+}
+
+.awards_list_item{
+	position: relative;
+	padding: 5px 0 0 80px;
+	font-style: italic;
+}
+.award_time{
+	display: block;
+	top: 0;
+	left: 0;
+	width: 55px;
+	height: 21px;
+	padding: 8px 0 0 5px;
+	position: absolute;
+	background: url("../images/red_date_marker.png") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	font-style: normal;
+}
+
+.award_ind{
+	margin-bottom: 10px;
+}
