@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
 	 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
 	 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	 <script src="js/script.js"></script>
@@ -34,23 +33,17 @@
           sync: "#carousel"
         });
 
-        $('#carousel').on('touchmove', function (event) {
-          var touch = event.originalEvent.touches[0];
-          var offset = +($("#carousel").css("top").slice(1,-2));
-          var parent = $("#carousel");
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
 
-          if(touch.pageY > offset){
-            parent.css({
-             top: 0
-            })
-          } 
-          else if(touch.pageY < offset){
-            parent.css({
-             top: -187
-            })
-          }
-          return false;
-       });
+          show(item,parent)
+        })
+
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
 			});
 	 </script>
 	<!--[if lt IE 8]>
@@ -85,6 +78,7 @@
     </article>
     <article class="flexslider" id="slider">
       <ul class="slides">
+        
         <!-- Home page -->
         <li class="home_page">
           <h1 class="logo">
@@ -363,7 +357,7 @@
               <h1 class="about_team_2__title_1">О КОМПАНИИ: <span class="about_team_2__title_1_red">КОМАНДА</span></h1>
             </div>
           </div>
-          <div class="about_team_2__content padding_left wrapper">
+          <div class="about_team_2__content ext_wrapper">
             <div class="about_us_1 ext_wrapper">
               <h2 class="about_team_2__name">
                 Александр Бровкин
@@ -474,36 +468,62 @@
                   &nbsp;портфолио T+T Architects.
                 </span>
                 <span class="about_team_3__plus1">
-                  <a class="lightbox" href="#">
+                  <a class="lightbox" href="#" data-item=".item1" data-parent=".about_team_3__content_right">
                     <img class="about_team_3__images" src="images/plus.png" alt="">
                   </a>
                 </span>
                 <span class="about_team_3__plus2">
-                  <a class="lightbox" href="#">
+                  <a class="lightbox" href="#"  data-item=".item2" data-parent=".about_team_3__content_right">
                     <img class="about_team_3__images" src="images/plus.png" alt="">
                   </a>
                 </span>
                 <span class="about_team_3__plus3">
-                  <a class="lightbox" href="#">
+                  <a class="lightbox" href="#" data-item=".item3" data-parent=".about_team_3__content_right">
                     <img class="about_team_3__images" src="images/plus.png" alt="">
                   </a>
                 </span>
               </div>  
               <div class="about_team_3__logo_bot wrapper">
-                      <a class="about_team_3__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
-                    </div>
+                  <a class="about_team_3__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+                </div>
             </div>
             <div class="about_team_3__content_right">
-              <h3 class="about_team_3__title_name">
-                Макаров Николай
-              </h3>
-              <p class="about_team_3__red">
-                Ведущий Архитектор
-              </p>
-              <p>
-                В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
-                2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
-              </p>
+              <div class="hide_item item1">
+                <h3 class="about_team_3__title_name">
+                  Макаров Николай
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+              <div class="hide_item item2">
+                <h3 class="about_team_3__title_name">
+                  dadawdadawdad
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+              <div class="hide_item item3">
+                <h3 class="about_team_3__title_name">
+                  3333
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
             </div>
           </div>
         </li>
@@ -516,7 +536,7 @@
               <h1 class="about_clients__title_1">О КОМПАНИИ: <span class="about_clients__title_1_red">ПАРТНЕРЫ</span></h1>
             </div>
           </div>
-          <div class="about_clients__content padding_left ext_wrapper">
+          <div class="about_clients__content ext_wrapper">
             <div class="about_clients__first_block1 f_left">
               <p class="about_clients__list_top_item_text">
                   Компания Т+Т Architects обладает налаженными партнерскими связями. Среди наших клиентов крупнейшие застройщики и девелоперы Москвы и России, ведущие рекламные агенства, организации финаносового сектора.
@@ -591,7 +611,7 @@
                   Аудиторская компания
                 </h3>
                 <p class="about_clients__list_bot_item_text">
-                  Для крупной аудиторской компании разработан проект офисных помещений на территории БЦ PREO-8. Необходимо было разместить на 6000 кв.м. основные функциональные департаменты заказчика. Проектирование велось в формате design & build.
+                  Для крупной аудиторской компании разработан проект офисных помещений на территории БЦ PREO-8. Необходимо было разместить на 6000 кв.м. основные функциональные департаменты заказчика. Проектирование велось в формате design &amp; build.
                 </p>
               </li>
             </ul>
@@ -733,11 +753,11 @@
               <div class="project_8_2__content">
                 <div class="project_8_2__img_top">
                   <img class="pr_8_2_top" src="images/project_8-2_img_top.jpg" alt="">
-                  <span class="project_8-2__plus_top"><a class="lightbox" href="#"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
+                  <span class="project_8-2__plus_top"><a class="lightbox" data-item=".item1" data-parent=".project_8_2__right" href="#"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
                 </div>
                 <div class="project_8_2__img_bot">
                   <img class="pr_8_2_bot" src="images/project_8-2_img_bot.jpg" alt="">
-                  <span class="project_8-2__plus_bot"><a class="lightbox" href="#"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
+                  <span class="project_8-2__plus_bot"><a data-item=".item2" data-parent=".project_8_2__right" class="lightbox" href="#"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
                 </div>
               </div>
               <div class="clear"></div>
@@ -746,8 +766,12 @@
               </div>  
             </div>  
             <div class="project_8_2__right">
-              <div class="project_8_2__text">
+              <div class="hide_item item1 project_8_2__text">
                 Апартаменты будут построены неподалеку от Ленинградского проспекта, на территории опытного завода №408. Предприятие, занимающее чуть больше 1 га, уже выведено из города, а его корпуса ожидают реконструкции. Расположение бывшего завода трудно не признать удобным – 10 минут пешком до станции метро «Аэропорт», под боком Ленинградка и ТТК, – так что его перепрофилирование, что называется, было предрешено. Почти сразу инвестор определился и с новой функцией комплекса – стесненность территории и довольно высокая плотность существующей застройки не позволили бы создать здесь ни офисный центр, ни полноценное жилье с обязательной инфраструктурой. Разработать концепцию предстоящей реконструкции компания KR Properties пригласила своих давних партнеров – мастерскую T+T Architects. Правда, одной лишь реновацией дело не ограничилось: перед архитекторами была поставлена амбициозная задача создать новую типологию апартаментов. 
+              </div>
+              <div class="hide_item item2 project_8_2__text">
+                Почти сразу инвестор определился и с новой функцией комплекса – стесненность территории и довольно высокая плотность существующей застройки не позволили бы создать здесь ни офисный центр, ни полноценное жилье с обязательной инфраструктурой. Разработать концепцию предстоящей реконструкции компания KR Properties пригласила своих давних партнеров – мастерскую T+T Architects. Правда, одной лишь реновацией дело не ограничилось: перед архитекторами была поставлена амбициозная задача создать новую типологию апартаментов. 
+                Апартаменты будут построены неподалеку от Ленинградского проспекта, на территории опытного завода №408. Предприятие, занимающее чуть больше 1 га, уже выведено из города, а его корпуса ожидают реконструкции. Расположение бывшего завода трудно не признать удобным – 10 минут пешком до станции метро «Аэропорт», под боком Ленинградка и ТТК, – так что его перепрофилирование, что называется, было предрешено. 
               </div>  
             </div>
           </div>
@@ -869,6 +893,7 @@
               </div>
           </div>
         </li>
+
         <!--  Roofpoint -->
         <li class="roofpoint ext_wrapper">
           <div class="roofpoint__top ext_wrapper">
@@ -877,35 +902,44 @@
             </div>
           </div>
           <div class="roofpoint__content ext_wrapper">
-            <div class="roofpoint__content_left padding_left ext_wrapper">
-              <p class="roofpoint__text">
-                На сегодняшний день деловая среда предъявляет новые требования к форматам и скорости обмена информацией. Еще недавно отсутсвие гибкой коммуникативной структуры компании не считалось недостатком, а сегодня без этого невозможно себе представить ни один современный офис. Когда особое место в формировании образа компании, ее бренда занимает процесс коммуникации как с внутреннений средой (организация-заказчик-среда-общество), так и с внутренней (бренд-департамент-сотрудник). Именно поэтому на картах офисов компаний стали появляться различные формальные и неформальные коммуникационные точки: meeting point, coffee point, lounge zone, преследующие одну цель – ускорить обмен информацией, облегчить процесс общения, перестроить информационную среду организации таким образом, чтобы сделать бизнес эффективным.
-              </p>
-              <p class="roofpoint__text">
-                Проект “Roof Point” - новая точка на карте деловой коммуникации. “Roof Point” - event площадка, где не действуют правила заданой корпоративной культуры, где нет дресс-кода и иерархии. Зато есть интересные люди-собеседники, приглашенные гости-лекторы с актуальными темами из мира коммерческой недвижимости и не 
-              </p>
+            <div class="roofpoint__col">
+              <p>На сегодняшний день деловая среда предъявляет новые требования к форматам и скорости обмена информацией. Еще недавно отсутсвие гибкой коммуникативной структуры компании не считалось недостатком, а сегодня без этого невозможно себе представить ни один современный офис. Когда особое место в формировании образа компании, ее бренда занимает процесс коммуникации как с внутреннений средой (организация-заказчик-среда-общество), так и с внутренней (бренд-департамент-сотрудник). Именно поэтому на картах офисов компаний стали появляться различные формальные и неформальные коммуникационные точки: meeting point, coffee point, lounge zone, преследующие одну цель – ускорить обмен информацией, облегчить процесс общения, перестроить информационную среду организации таким образом, чтобы сделать бизнес эффективным.</p>
+              Проект “Roof Point” - новая точка на карте деловой коммуникации. “Roof Point” - event площадка, где не действуют правила заданой корпоративной культуры, где нет дресс-кода и иерархии. Зато есть интересные люди-собеседники, приглашенные гости-лекторы с актуальными темами из мира коммерческой недвижимости и не
             </div>
-            <div class="roofpoint__content_center ext_wrapper">
-              <p class="roofpoint__text_center f_left">
+            <div class="ext_wrapper">
+              <div class="roofpoint__col">
                 только, атмосфера свободы и равенства, чай, плюшки и шампанское. Мы видим своей миссией образование качественного нового уровня делового общения через который будет реализовываться весь потенциал бизнес-среды для создания отличных проектов мирового уровня.
-              </p>
-              <p class="roofpoint__text_center f_right">
-                Несмотря на то, что проект “Roof Point” обязан своим созданием компаниям T+T Architects и К.S. Buro и, безусловно, получил хороший инвестиционный пинок, проект будет развиваться самостоятельно. Например: темы для встреч определяют сами пользователи (не без сюрпризов и специальных гостей от организаторов)
-              </p>
-              <img src="images/roofpoint_1.jpg" alt="" class="type1">
-              <img src="images/roofpoint_2.jpg" alt="" class="type2 f_left">
-              <img src="images/roofpoint_3.jpg" alt="" class="type2 f_right">
+              </div>
+              <div class="roofpoint__col">
+                Несмотря на то, что проект “Roof Point” обязан своим созданием компаниям T+T Architects и К.S. Buro и, безусловно, получил хороший инвестиционный пинок, проект будет развиваться самостоятельно. Например: темы для встреч определяют пользователи (не без сюрпризов и специальных гостей от организаторов).
+              </div>
+              <div class="roofpoint__col">
+                <p class="p2">Предлагаемые темы будут требовать серьезной подготовки как со стороны организаторов, и и со стороны приглашенных гостей, что несомненно повысит образовательную составляющую. Всю ценность проекта “Roof Point” создают посетители – то есть ВЫ, члены этого, по-сути, интеллектуального клуба.</p>
+              </div>
             </div>
-            <div class="roofpoint__content_right ext_wrapper">
-              <p class="roofpoint__text">
-                Предлагаемые темы будут требовать серьезной подготовки как со стороны организаторов, и и со стороны приглашенных гостей, что несомненно повысит образовательную составляющую. Всю ценность проекта “Roof Point” создают посетители – то есть ВЫ, члены этого, по-сути, интеллектуального клуба.
-              </p>
-              <h3 class="">
-                Ждём вас на наших встречах!
-              </h3>
-              <img src="images/roofpoint_4.jpg" alt="" class="type2">
-              <img src="images/roofpoint_5.jpg" alt="" class="type2">
-              <img src="images/roofpoint_6.jpg" alt="" class="type2">
+            <div class="ext_wrapper">
+              <div class="ext_wrapper p3">
+                <div class="roofpoint__col2">
+                  <p>
+                    <img src="images/roofpoint_1.jpg" class="type1" alt="">
+                  </p>   
+                </div>
+                <div class="roofpoint__col">
+                  <p>
+                    <strong class="wait">Ждём вас на наших встречах!</strong>
+                  </p>
+                  <p class="p2">
+                    <img src="images/roofpoint_4.jpg" class="type2" alt="">
+                  </p>
+                  <img src="images/roofpoint_5.jpg" class="type2" alt="">
+                  
+                </div>
+              </div>
+              <div class="ext_wrapper">
+                <div class="roofpoint__col"><img src="images/roofpoint_2.jpg" class="type2" alt=""></div>
+                <div class="roofpoint__col"><img src="images/roofpoint_3.jpg" class="type2" alt=""></div>
+                <div class="roofpoint__col"><img src="images/roofpoint_6.jpg" class="type2" alt=""></div>
+              </div>
             </div>
           </div>
         </li>

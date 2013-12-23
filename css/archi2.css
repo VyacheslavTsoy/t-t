@@ -12,6 +12,7 @@
 	font-size: 32px;
 	line-height: 40px;
 	color: #464646;
+	letter-spacing: -1px;
 }
 .archi2__title_1_red{
 	color: red;
@@ -22,7 +23,7 @@
 	background: url('../images/background_text_archi2.png');
 	padding: 29px 125px 33px 85px;
 	color: #464646;
-	margin: 0 0 0 144px;
+	margin: 0 0 89px 144px;
 	text-align: justify;
 }
 .archi2__title_2{

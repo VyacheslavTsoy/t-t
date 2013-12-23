@@ -1,6 +1,6 @@
 
 .about_team_2__top{
-	margin: 45px 0 7px 0;
+	margin: 45px 0 7px 25px;
 }
 .about_team_2__title_1{
 	font-size: 32px;
@@ -12,6 +12,7 @@
 /*==============>top end<================*/
 .about_team_2__content{
 	position: relative;
+	padding-left: 25px;
 	font-size: 13px;
 }
 .about_us_1, .about_us_2, .about_us_3, .about_us_4{
@@ -27,7 +28,7 @@
 	margin: 178px 31px 0 0;
 }
 .about_us_3{
-	margin: 46px 31px 0 0;
+	margin: 46px 20px 0 0;
 }
 .about_us_4{
 	margin-top: 60px;
