@@ -7,23 +7,16 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-	 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
-	 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 	 <script src="js/script.js"></script>
 	 <script type="text/javascript">
 		  $(window).load(function() {
-        // The slider being synced must be initialized first
-        $('#carousel').flexslider({
-          animation: "slide",
-          controlNav: false,
-          animationLoop: false,
-          slideshow: false,
-          itemWidth: 187,
-          controlNav: false,
-          directionNav: false,
-          asNavFor: '#slider'
-        });
          
         $('#slider').flexslider({
           animation: "slide",
@@ -40,6 +33,11 @@
           show(item,parent)
         })
 
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
         function show(item, parent){
           $(parent).find("div").hide();
           $(parent).find(item).show();
@@ -60,22 +58,7 @@
 </head>
 <body>
     <!--==============================>  <===============================-->
-    <article class="flexslider" id="carousel">
-      <ul class="slides">
-        <li>
-          <img src="images/nav_thumb1.jpg" alt="">
-        </li>
-        <li>
-          <img src="images/nav_thumb1.jpg" alt="">
-        </li>
-        <li>
-          <img src="images/nav_thumb1.jpg" alt="">
-        </li>
-        <li>
-          <img src="images/nav_thumb1.jpg" alt="">
-        </li>
-      </ul>
-    </article>
+
     <article class="flexslider" id="slider">
       <ul class="slides">
         
@@ -753,25 +736,19 @@
               <div class="project_8_2__content">
                 <div class="project_8_2__img_top">
                   <img class="pr_8_2_top" src="images/project_8-2_img_top.jpg" alt="">
-                  <span class="project_8-2__plus_top"><a class="lightbox" data-item=".item1" data-parent=".project_8_2__right" href="#"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
+                  <span class="project_8-2__plus_top"><a class="fancy" href="images/big_img1.jpg"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
                 </div>
                 <div class="project_8_2__img_bot">
                   <img class="pr_8_2_bot" src="images/project_8-2_img_bot.jpg" alt="">
-                  <span class="project_8-2__plus_bot"><a data-item=".item2" data-parent=".project_8_2__right" class="lightbox" href="#"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
+                  <span class="project_8-2__plus_bot"><a class="fancy" href="images/big_img2.jpg"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
                 </div>
               </div>
-              <div class="clear"></div>
-              <div class="project_8_2__logo_bot wrapper">
-                <a class="project_8_2__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
-              </div>  
+              <div class="clear"></div> 
             </div>  
             <div class="project_8_2__right">
-              <div class="hide_item item1 project_8_2__text">
-                Апартаменты будут построены неподалеку от Ленинградского проспекта, на территории опытного завода №408. Предприятие, занимающее чуть больше 1 га, уже выведено из города, а его корпуса ожидают реконструкции. Расположение бывшего завода трудно не признать удобным – 10 минут пешком до станции метро «Аэропорт», под боком Ленинградка и ТТК, – так что его перепрофилирование, что называется, было предрешено. Почти сразу инвестор определился и с новой функцией комплекса – стесненность территории и довольно высокая плотность существующей застройки не позволили бы создать здесь ни офисный центр, ни полноценное жилье с обязательной инфраструктурой. Разработать концепцию предстоящей реконструкции компания KR Properties пригласила своих давних партнеров – мастерскую T+T Architects. Правда, одной лишь реновацией дело не ограничилось: перед архитекторами была поставлена амбициозная задача создать новую типологию апартаментов. 
-              </div>
-              <div class="hide_item item2 project_8_2__text">
-                Почти сразу инвестор определился и с новой функцией комплекса – стесненность территории и довольно высокая плотность существующей застройки не позволили бы создать здесь ни офисный центр, ни полноценное жилье с обязательной инфраструктурой. Разработать концепцию предстоящей реконструкции компания KR Properties пригласила своих давних партнеров – мастерскую T+T Architects. Правда, одной лишь реновацией дело не ограничилось: перед архитекторами была поставлена амбициозная задача создать новую типологию апартаментов. 
-                Апартаменты будут построены неподалеку от Ленинградского проспекта, на территории опытного завода №408. Предприятие, занимающее чуть больше 1 га, уже выведено из города, а его корпуса ожидают реконструкции. Расположение бывшего завода трудно не признать удобным – 10 минут пешком до станции метро «Аэропорт», под боком Ленинградка и ТТК, – так что его перепрофилирование, что называется, было предрешено. 
+              <div class="item1 project_8_2__text">
+                <p>Апартаменты будут построены неподалеку от Ленинградского проспекта, на территории опытного завода №408. Предприятие, занимающее чуть больше 1 га, уже выведено из города, а его корпуса ожидают реконструкции. Расположение бывшего завода трудно не признать удобным – 10 минут пешком до станции метро «Аэропорт», под боком Ленинградка и ТТК, – так что его перепрофилирование, что называется, было предрешено. Почти сразу инвестор определился и с новой функцией комплекса – стесненность территории и довольно высокая плотность существующей застройки не позволили бы создать здесь ни офисный центр, ни полноценное жилье с обязательной инфраструктурой. Разработать концепцию предстоящей реконструкции компания KR Properties пригласила своих давних партнеров – мастерскую T+T Architects. Правда, одной лишь реновацией дело не ограничилось: перед архитекторами была поставлена амбициозная задача создать новую типологию апартаментов.</p> 
+              
               </div>  
             </div>
           </div>
