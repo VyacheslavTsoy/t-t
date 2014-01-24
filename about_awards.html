@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!-- About awards -->
+<div class="content_wrap about_awards">
+  <div class="about_awards__top wrapper">
+    <div class="padding_left wrapper">  
+      <h1 class="about_awards__title_1">О КОМПАНИИ: <span class="about_awards__title_1_red">НАГРАДЫ</span></h1>
+    </div>
+  </div>
+  <div class="about_awards__content wrapper"> 
+    <div class="padding_left">
+      <div class="ab_awards__left ext_wrapper f_left">
+        <ul class="ab_awards__list1 lis">
+          <li class="ab_awards__item_img">
+            <img class="yamaha_img" src="images/YAMAHA.jpg" alt="">
+          </li>
+          <li class="ab_awards__item_text">
+            <h2 class="ab_awards__title_2">Europe Property Awards</h2>
+            <p>В 2013 году компания T+T Architects взяла приз на престижном конкурсе Europe Property Awards 2013 в Лондоне.
+            
+            <p>Победа была присуждена в категории Best Architecture Multiple Residence Russia за проект квартала апартаментов STUDIO #8, где заказчиком выступил KR Properties.</p>
+            
+            <p>Авторы проекта:
+              <br>Труханов С., Бровкин А., Макаров Н., Воеводина П.</p>
+            
+          </li>
+        </ul>
+      </div>
+      <div class="ab_awards__right ext_wrapper f_left">
+        <ul class="ab_awards__list2 lis">
+          <li class="ab_awards__item_img2">
+            <img class="office_awards_img" src="images/office_awards.jpg" alt="">
+          </li>
+          <li class="ab_awards__item_text">
+            <h2 class="ab_awards__title_2">
+              Best Office Awards
+            </h2>
+            <p>
+              На премии Best Office Awards 2013 года компания T+T Architects победила в номинации "Организация пространства" за проект офиса своей архитектурной мастерской.</p>
+              
+              <p>Авторы проекта: <br>
+                Труханов С., Воеводина П.</p>
+              Отдельное спасибо компаниям K.S. Buro, Pridex Group, Trinova, AMG, Milliken
+            
+          </li>
+        </ul> 
+      </div>
+      <div class="ab_awards__right_bot ext_wrapper f_left">
+        <ul class="ab_awards__list3 lis">
+          <li class="ab_awards__item_img3">
+            <img class="golden_essay_img" src="images/golden_essay.jpg" alt="">
+          </li>
+          <li class="ab_awards__item_text">
+            <h2 class="ab_awards__title_2">
+              Золотое Сечение
+            </h2>
+            <p>
+              В рамках фестиваля Золотое Сечение 2013 коллектив T+T Architects был награжден почетным дипломом за проект апартаментов STUDIO #8 за наилучшее архитектурное решение в условиях плотной застройки.
+              <br>
+              <br>
+              Авторы проекта: <br>
+              Труханов С., Бровкин А., Макаров Н., Воеводина П.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="about_awards__logo_bot wrapper">
+        <a class="logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+    </div>  
+  </div>
+</div>
+<!-- About awards END-->
+</body>
+</html>
+
+

@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+    <!--==============================>  <===============================-->
+        
+        <!-- Home page -->
+        <div class="content_wrap home_page">
+          <h1 class="logo">
+            <a href="#"></a>
+          </h1>
+          <div class="home_banner">
+            <h2 class="home_banner__title"><span class="txt_bg">Cергей Труханов</span></h2>
+            <div class="home_banner__content">
+              <span class="txt_bg1">&nbsp;“Открытость всех проектных решений, их <br> &nbsp;обоснованность и понятность для заказчика, <br> &nbsp;подрядчика и конечных потребителей – вот на что мы <br> &nbsp;делаем ставку. Архитектура здания, его социальная и <br> &nbsp;функциональная программа должны быть <br> &nbsp;обоснованы факторов, окружением, логистикой, <br> &nbsp;эстетической и общественной ценностью, всем тем, <br> &nbsp;что сейчас принято называть «контекстом».”</span>
+            </div>
+          </div>
+        </div>
+        <!-- Home page END -->
+
+        <!-- Navigation page -->
+        <div class="content_wrap navhelp_page">
+          <h1 class="logo">
+            <a href="#"></a>
+            <span class="logo_label">Навигация</span>
+          </h1>
+
+          <div class="wrapper navhelp_wrap">
+            <div class="navhelp_col">
+              <ul class="navhelp_list1">
+                <li>
+                  <figure>
+                    <img class="nav_img1" src="images/nav_img1.jpg" alt="">
+                  </figure>
+                  <div>
+                    Прокрутка по страницам
+                  </div>
+                </li>
+                <li>
+                  <figure>
+                    <img class="nav_img1" src="images/nav_img2.jpg" alt="">
+                  </figure>
+                  <div>
+                    Прокрутка внутри тему вверх/вниз
+                  </div>
+                </li>
+                <li>
+                  <figure>
+                    <img class="nav_img2" src="images/nav_img3.jpg" alt="">
+                  </figure>
+                  <div>
+                    Дополнительная информаия о элементе
+                  </div>
+                </li>
+                <li>
+                  <figure>
+                    <img class="nav_img2" src="images/nav_img4.jpg" alt="">
+                  </figure>
+                  <div>
+                    Внутренняя навигация по слайду
+                  </div>
+                </li>
+                <li>
+                  <figure>
+                    <img class="nav_img2" src="images/nav_img5.jpg" alt="">
+                  </figure>
+                  <div>
+                    Внутренняя навигация по слайду
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="navhelp_col">
+              <ul class="navhelp_list2">
+                <li>
+                  <figure>
+                    <img class="nav_img3" src="images/nav_img6.jpg" alt="">
+                  </figure>
+                  <div>
+                    Для вызова меню страниц проведите двумя пальцами сверху вниз по любой странице
+                  </div>
+                </li>
+                <li>
+                  <figure>
+                    <img class="nav_img3" src="images/nav_img7.jpg" alt="">
+                  </figure>
+                  <div class="spec_box">
+                    Нажмите один раз на выбранной странице.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+  
+        </div>
+        <!-- Navigation page END -->
+        
+        <!-- About Profile page -->
+        <div class="content_wrap about_profile wrapper">
+            <div class="about_profile__left">
+              <div class="about_profile__top">
+                <div class="padding_left">  
+                  <h1 class="about_profile__title_1">О КОМПАНИИ: <span class="about_profile__title_1_red">ПРОФИЛЬ</span></h1>
+                </div>
+              </div>
+              <div class="about_profile__content">
+                <div class="about_profile__images">
+                  <img class="about_profile__img" src="images/about_awards_img.jpg" alt="">
+                </div>
+              </div>
+              <div class="clear"></div>
+              <div class="about_profile__logo_bot wrapper">
+                <a class="about_profile__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+              </div>  
+            </div>  
+            <div class="about_profile__right">
+              <div class="about_profile__text">
+                <p>
+                  Термин TRANSPARENCY TERRITORY стал отправной точкой, идеологией бюро, основанной на открытости и прозрачности нашего взаимодействия с архитектурой, клиентом, обществом. Открытость проектного процесса и взаимодействий, ясность принимаемых решений, комплексный подход к проектным задачам.
+                  <br>
+                  <br>
+                  Формула "Т+Т" позволила создать на территории бюро условия для прозрачной связи между самовыражением архитектора, потребностью заказчика и общественной ценностью.
+                </p>
+              </div>  
+            </div>
+        </div>
+        <!-- About profile END -->
+        
+        <!-- About awards -->
+        <div class="content_wrap about_awards">
+          <div class="about_awards__top wrapper">
+            <div class="padding_left wrapper">  
+              <h1 class="about_awards__title_1">О КОМПАНИИ: <span class="about_awards__title_1_red">НАГРАДЫ</span></h1>
+            </div>
+          </div>
+          <div class="about_awards__content wrapper"> 
+            <div class="padding_left">
+              <div class="ab_awards__left ext_wrapper f_left">
+                <ul class="ab_awards__list1 lis">
+                  <li class="ab_awards__item_img">
+                    <img class="yamaha_img" src="images/YAMAHA.jpg" alt="">
+                  </li>
+                  <li class="ab_awards__item_text">
+                    <h2 class="ab_awards__title_2">Europe Property Awards</h2>
+                    <p>В 2013 году компания T+T Architects взяла приз на престижном конкурсе Europe Property Awards 2013 в Лондоне.
+                    
+                    <p>Победа была присуждена в категории Best Architecture Multiple Residence Russia за проект квартала апартаментов STUDIO #8, где заказчиком выступил KR Properties.</p>
+                    
+                    <p>Авторы проекта:
+                      <br>Труханов С., Бровкин А., Макаров Н., Воеводина П.</p>
+                    
+                  </li>
+                </ul>
+              </div>
+              <div class="ab_awards__right ext_wrapper f_left">
+                <ul class="ab_awards__list2 lis">
+                  <li class="ab_awards__item_img2">
+                    <img class="office_awards_img" src="images/office_awards.jpg" alt="">
+                  </li>
+                  <li class="ab_awards__item_text">
+                    <h2 class="ab_awards__title_2">
+                      Best Office Awards
+                    </h2>
+                    <p>
+                      На премии Best Office Awards 2013 года компания T+T Architects победила в номинации "Организация пространства" за проект офиса своей архитектурной мастерской.</p>
+                      
+                      <p>Авторы проекта: <br>
+                        Труханов С., Воеводина П.</p>
+                      Отдельное спасибо компаниям K.S. Buro, Pridex Group, Trinova, AMG, Milliken
+                    
+                  </li>
+                </ul> 
+              </div>
+              <div class="ab_awards__right_bot ext_wrapper f_left">
+                <ul class="ab_awards__list3 lis">
+                  <li class="ab_awards__item_img3">
+                    <img class="golden_essay_img" src="images/golden_essay.jpg" alt="">
+                  </li>
+                  <li class="ab_awards__item_text">
+                    <h2 class="ab_awards__title_2">
+                      Золотое Сечение
+                    </h2>
+                    <p>
+                      В рамках фестиваля Золотое Сечение 2013 коллектив T+T Architects был награжден почетным дипломом за проект апартаментов STUDIO #8 за наилучшее архитектурное решение в условиях плотной застройки.
+                      <br>
+                      <br>
+                      Авторы проекта: <br>
+                      Труханов С., Бровкин А., Макаров Н., Воеводина П.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="about_awards__logo_bot wrapper">
+                <a class="logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+            </div>  
+          </div>
+        </div>
+        <!-- About awards END-->
+
+        <!-- About Truhanov -->
+        <div class="content_wrap about_truhanov">
+          <div class="about_truhanov__top wrapper">
+            <div class="padding_left wrapper">  
+              <h1 class="about_truhanov__title_1">О КОМПАНИИ: <span class="about_truhanov__title_1_red">МИССИЯ</span></h1>
+            </div>
+          </div>
+          <div class="about_truhanov__content wrapper">
+            <div class="about_truhanov__content_left">
+              <div class="about_truhanov__text_top">
+                <span class="about_truhanov__text_words">
+                  «T+T» – это начальные буквы двух английских 
+                  <br>
+                  &nbsp;слов, transparent и territory, то есть «прозрачность»
+                  <br>
+                  &nbsp;и «пространство». В этой формуле – суть нашего
+                   <br>
+                  &nbsp;подхода к разработке архитектурных проектов. 
+                  <br>
+                  &nbsp;Открытость всех проектных решений, их 
+                  <br>
+                  &nbsp;обоснованность и понятность для заказчика, 
+                  <br>
+                  &nbsp;подрядчика и конечных потребителей – вот на что 
+                  <br>
+                  &nbsp;мы делаем ставку.
+                </span>
+              </div>  
+              <div class="about_truhanov__text_bottom">
+                <ul class="awards_list">
+                  <li class="awards_list_item award_ind">
+                    <span class="award_time">2008</span>
+                    Лауреат фестиваля «Под крышей дома 2008» за проект БЦ «Time Center»
+                  </li>
+                  <li class="awards_list_item">
+                    <span class="award_time">2010</span>
+                    <p class="award_ind">International (Europe &amp; Africa) Commercial Property Awards 2010 (London) – победитель в категории лучший архитектурный объект (офисное здание) – проект реставрации и приспособления под современное использование памятника регионального значения «Мельница И.А. Зарывного» г. Оренбург.</p>
+                    специальный приз журнала «Качественная Архитектура» на АрхиКонкурс 2010
+                  </li>
+                  <li class="awards_list_item">
+                    <span class="award_time">2013</span>
+                    <p class="award_ind">почетный диплом «Золотое Сечение 2013» за проект loft квартал Studio #8</p>
+                    <p class="award_ind">специальныйпобедитель Best Office Awards 2013 в номинации «Организация пространства»</p>
+                    специальныйEurope Commercial Property Awards London - победитель в категории “Лучшая архитектура многофунционального жилого комплекса” за проетк Лофт-квартал Studio #8
+                  </li>
+                </ul>
+              </div>
+              <div class="about_truhanov__logo_bot wrapper">
+                      <a class="about_truhanov__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+                    </div>
+            </div>
+            <div class="about_truhanov__content_right">
+              <h3 class="about_truhanov__title_name">
+                Сергей Труханов
+              </h3>
+              <p class="red">
+                Руководитель студии, основатель
+              </p>
+              <p>
+                Профессиональную карьеру начал в 2004 ггоду и уже в 2007 году организовал компанию Mealhouse Concept Design, в рамках которой проработал до 2011 года. С 2012 года возглавляет и является основателем архитектурного бюро Т+Т Architects. За время работы участвовал практически во всех проектах, выполненных в рамках бюро, от офисных интерьеров, до проектов реновации городских территорий.
+                2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ «Time Center»
+              </p>
+              <div class="about_truhanov__img">
+                <a class="lightbox" href="#">
+                  <img class="about_truhanov_men" src="images/about_truhanov_men.jpg" alt="">
+                </a>
+                <span class="about_truhanov__plus">
+                  <img class="about_truhanov__plus_images" src="images/plus.png" alt="">
+                </span> 
+              </div>
+            </div>
+            
+          </div>
+          </div>  
+        </div>
+        <!-- About Truhanov END-->
+        
+        <!-- About Team 2-->
+        <div class="content_wrap about_team_2 wrapper">
+          <div class="about_team_2__top wrapper">
+            <div class="padding_left wrapper">  
+              <h1 class="about_team_2__title_1">О КОМПАНИИ: <span class="about_team_2__title_1_red">КОМАНДА</span></h1>
+            </div>
+          </div>
+          <div class="about_team_2__content ext_wrapper">
+            <div class="about_us_1 ext_wrapper">
+              <h2 class="about_team_2__name">
+                Александр Бровкин
+              </h2>
+              <h3 class="post">
+                Главный архитектор
+              </h3>
+              <p class="about_us_text">
+                Окончил факультет архитектуры МГСУ в 2005 г. На сегодняшний день, возглавляет архитектурное направление в бюро «Т+Т Architects». После университета работал в архитектурной мастерской Гинзбург Архитектс. Помимо этого с 2007 года входит в состав архитектурной группы element.
+              </p>
+              <p class="about_us_text">
+                Александр сторонник «чистых» архитектурных решений и выстраивает образ объекта, основываясь на логичных и функциональных принципах современной архитектуры. В новом строительстве отдает предпочтение легким геометрическим формам и материалам, при реконструкции объектов – важным считает рассказать «историю» здания (комплекса зданий), деликатно придав новое звучание окружающей застройке./
+                (комплекса зданий), деликатно придав новое звучание окружающей застройке.(комплекса зданий), деликатно придав 
+              </p>
+              <img src="images/about_team_2_worker1.jpg" alt="" class="about_us_img1">
+            </div>
+            <div class="about_us_2 ext_wrapper">
+              <h2 class="about_team_2__name">
+                Воеводина Полина
+              </h2>
+              <h3 class="post">
+                Руководитель отдела разработки концепций
+              </h3>
+              <p class="about_us_text">
+                Окончила Московский Архитектурный институт в 2010 году, до этого 3 года училась в архитектурном колледже в Измайлово.
+              </p>
+              <p class="about_us_text">
+                Рабочую практику начала в студенческие годы. После этого, почти 5 лет была архитектором в компании Mealhouse Concept Design. 
+              </p>
+              <p class="about_us_text">
+                С момента основания работает в архитектурной мастерской «Т+Т Architects» в качестве идеолога отдела разработки концепций как для для объектов архитектуры, так и для 
+              </p>
+              <img src="images/about_team_2_worker2.jpg" alt="" class="about_us_img2">
+            </div>
+            <div class="about_company">
+              <span class="text_words">
+                Наша компания формально очень молода: она
+                <br>
+                &nbsp;была создана в начале 2012 года. Но команда, 
+                <br>
+                &nbsp;которую я возглавляю, сложилась гораздо 
+                 <br>
+                &nbsp;раньше: несколько лет мы все работали в 
+                <br>
+                &nbsp;составедругого бюро. Некоторые из проектов,
+                <br>
+                &nbsp;которые мы начали делать тогда, были 
+                <br>
+                &nbsp;закончены уже под новым брендом и по праву
+                <br>
+                &nbsp;вошли в портфолио T+T Architects. 
+              </span>
+            </div>
+            <div class="about_us_3 ext_wrapper">
+              <h2 class="about_team_2__name">
+                Чуканов Владимир
+              </h2>
+              <h3 class="post">
+                Главный архитектор
+              </h3>
+              <p class="about_us_text">
+                Тонко чувствует специфику и особенности коммерческих интерьеров. В компании T+T Architects руководит отделом разработки интерьеров. За время проектной деятельности разработал и принимал участие в проектировании офисов крупных международных и российских компаний. Последователен в управлении, щепетилен в контроле проектных решений.
+              </p>
+              <img src="images/about_team_2_worker3.jpg" alt="" class="about_us_img3">
+            </div>
+            <div class="about_us_4 ext_wrapper">
+              <h2 class="about_team_2__name">
+                Нефедова Наталья
+              </h2>
+              <h3 class="post">
+                Коммерческий директор
+              </h3>
+              <p class="about_us_text">
+                В компании с 2012 года. В рамках T+T Architects осуществляет взаимодействие с контрагентами и , отвечает за выстраивание эффективных партнерских отношений с участниками рынка, где представлены интересы бюро, СМИ. Одной из основных задач считает выстраивание оптимальных бизнес-процессов внутри компании.
+              </p>
+              <img src="images/about_team_2_worker4.jpg" alt="" class="about_us_img4">
+            </div>
+            <div class="logo_bot wrapper">
+                    <a class="logo_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+                  </div>  
+          </div>  
+        </div>
+        <!-- About Team 2 END-->
+        
+        <!-- About Team 3-->
+        <div class="content_wrap about_team_3 wrapper">
+          <div class="about_team_3__top wrapper">
+            <div class="padding_left wrapper">  
+              <h1 class="about_team_3__title_1">О КОМПАНИИ: <span class="about_team_3__title_1_red">КОМАНДА</span></h1>
+            </div>
+          </div>
+          <div class="about_team_3__content wrapper">
+            <div class="about_team_3__content_left wrapepr">
+              <div class="about_team_3__text_top">
+                <span class="about_team_3__text_words">
+                  &nbsp;Наша компания формально очень молода: она была 
+                  <br>
+                  &nbsp;создана в начале 2012 года. Но команда сложилась 
+                  <br>
+                  &nbsp;гораздо раньше: несколько лет мы все работали в 
+                   <br>
+                  &nbsp;составе другого бюро. Некоторые из проектов, 
+                  <br>
+                  &nbsp;которые  мы начали делать тогда, были закончены
+                  <br>
+                  &nbsp;уже под новым брендом и по праву вошли в   
+                  <br>
+                  &nbsp;портфолио T+T Architects.
+                </span>
+                <span class="about_team_3__plus1">
+                  <a class="lightbox" href="#" data-item=".item1" data-parent=".about_team_3__content_right">
+                    <img class="about_team_3__images" src="images/plus.png" alt="">
+                  </a>
+                </span>
+                <span class="about_team_3__plus2">
+                  <a class="lightbox" href="#"  data-item=".item2" data-parent=".about_team_3__content_right">
+                    <img class="about_team_3__images" src="images/plus.png" alt="">
+                  </a>
+                </span>
+                <span class="about_team_3__plus3">
+                  <a class="lightbox" href="#" data-item=".item3" data-parent=".about_team_3__content_right">
+                    <img class="about_team_3__images" src="images/plus.png" alt="">
+                  </a>
+                </span>
+              </div>  
+              <div class="about_team_3__logo_bot wrapper">
+                  <a class="about_team_3__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+                </div>
+            </div>
+            <div class="about_team_3__content_right">
+              <div class="hide_item item1">
+                <h3 class="about_team_3__title_name">
+                  Макаров Николай
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+              <div class="hide_item item2">
+                <h3 class="about_team_3__title_name">
+                  dadawdadawdad
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+              <div class="hide_item item3">
+                <h3 class="about_team_3__title_name">
+                  3333
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- About Team 3 END-->
+        
+        <!-- About Clients-->
+        <div class="content_wrap about_clients wrapper">
+          <div class="about_clients__top">
+            <div class="padding_left ext_wrapper">  
+              <h1 class="about_clients__title_1">О КОМПАНИИ: <span class="about_clients__title_1_red">ПАРТНЕРЫ</span></h1>
+            </div>
+          </div>
+          <div class="about_clients__content ext_wrapper">
+            <div class="about_clients__first_block1 f_left">
+              <p class="about_clients__list_top_item_text">
+                  Компания Т+Т Architects обладает налаженными партнерскими связями. Среди наших клиентов крупнейшие застройщики и девелоперы Москвы и России, ведущие рекламные агенства, организации финаносового сектора.
+              </p>
+              <p class="about_clients__list_top_item_text">
+                  Мы считаем, что находить общий язык - неотъемлемая часть нашей работы, поэтому мы одинаково хорошо работаем как с государственными организациями, региональными отделениями и головными компаниями.
+              </p>
+            </div>
+            <ul class="about_clients__list_top ext_wrapper">
+              <li class="about_clients__list_top_item">
+                <img src="images/partner1.jpg" alt="" class="about_clients__list_item_img width_img1">
+                <h3 class="about_clients__list_top_item_title">
+                  Подрядная организация
+                </h3>
+                <p class="about_clients__list_top_item_text">
+                  Совместно с компанией Pridex Group нами были реализованы проекты самой различной сложности и объемов. Были разработаны концепции интерьеров для крупных международных и российских компаний, которые в последствии были построены Pridex. Выступая для нас заказчиком, совместно в кратчайшие сроки реализованы проекты формата design & build.
+                </p>
+              </li>
+              <li class="about_clients__list_top_item">
+                <img src="images/partner2.jpg" alt="" class="about_clients__list_top_item_img width_img2">
+                <h3 class="about_clients__list_top_item_title">
+                  Застройщик
+                </h3>
+                <p class="about_clients__list_top_item_text">
+                  Компания Абсолют Недвижимость явялется одним из крупнейших застройщиков жилой недвижимости. Именно с совместной работы в рамках жилых комплексов "Переделкино" и "Московский город-парк" началось наше сотрудничество. Разработаны здание офиса продаж, общественные зоны жилых корпусов. Следющим шагом стал проект дополнительного офиса компании.
+                </p>
+              </li>
+              <li class="about_clients__list_top_item">
+                <img src="images/partner3.jpg" alt="" class="about_clients__list_top_item_img width_img3">
+                <h3 class="about_clients__list_top_item_title">
+                  Девелопер
+                </h3>
+                <p class="about_clients__list_top_item_text">
+                  На сегодняшний день компания МОРТОН - один из крупнейших девелоперов жилой недвижимости по Москве и Московской области. Нашим бюро был разработан проект офисных помещений и представительских зон компании МОРТОН, общей площадью 10 300 кв.м., расположенных в БЦ PREO-8. Проект реализовывался в формате design &amp; build, что накладывало дополнительную ответственность по соблюдению сроков реализации объекта.
+                </p>
+              </li>
+            </ul>
+            <div class="about_clients__first_block2 f_left">
+              <img src="images/partner4.jpg" alt="" class="about_clients__list_bot_item_img width_img4">
+              <h3 class="about_clients__list_bot_item_title">
+                Девелопер
+              </h3>
+              <p class="about_clients__list_bot_item_text">
+                Сотрудничесвто с компанией KR Properties началось в 2012 г. За это время для одного из крупнейших российских девелоперов нами были разработаны проекты реконструкции административных и промышленных зданий с изменением функционального назначения, выполнены проекты интерьеров для бизнес центров заказчика.
+              </p>
+            </div>
+            <ul class="about_clients__list_bot ext_wrapper">
+              <li class="about_clients__list_bot_item">
+                <img src="images/partner5.jpg" alt="" class="about_clients__list_bot_item_img width_img5">
+                <h3 class="about_clients__list_bot_item_title">
+                  BTL агентство
+                </h3>
+                <p class="about_clients__list_bot_item_text">
+                  Action работает на рынке маркетинговых услуг с 2004 года. За это время агентство стало большими, сохранив креативность и открытость.
+                </p>
+                <p class="about_clients__list_bot_item_text">
+                  Сегодня Action - cамое рекомендуемое агентство на рынке. Совместо с руководством компании был создан интерьер их будущего офиса.
+                </p>
+              </li>
+              <li class="about_clients__list_bot_item">
+                <img src="images/partner6.jpg" alt="" class="about_clients__list_bot_item_img width_img6">
+                <h3 class="about_clients__list_bot_item_title">
+                  Консалтинг в недвижимости
+                </h3>
+                <p class="about_clients__list_bot_item_text">
+                  S.A. Ricci обладает уникальным опытом консультирования и реализации объектов редевелопмента. В портфеле несколько сот тысяч метров площадей таких девелоперских компаний как KR Properties, Horus Capital, Placon, Промсвязьнедвижимость, New Life Group и других. На совместных объектах компания выполняет функцию управления проектом и финансовый менеджмент проекта.
+                </p>
+              </li>
+              <li class="about_clients__list_bot_item">
+                <img src="images/partner7.jpg" alt="" class="about_clients__list_bot_item_img width_img7">
+                <h3 class="about_clients__list_bot_item_title">
+                  Аудиторская компания
+                </h3>
+                <p class="about_clients__list_bot_item_text">
+                  Для крупной аудиторской компании разработан проект офисных помещений на территории БЦ PREO-8. Необходимо было разместить на 6000 кв.м. основные функциональные департаменты заказчика. Проектирование велось в формате design &amp; build.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- About Clients END-->
+
+        <!-- Archi 1 page -->
+        <div class="content_wrap archi1 wrapper">
+          <div class="archi1__top">
+            <div class="wrapper">  
+              <h1 class="archi1__title_1">С.ТРУХАНОВ: <span class="archi1__title_1_red">ФОРМА ДОЛЖНА БЫТЬ ОБУСЛОВЛЕНА СРЕДОЙ</span></h1>
+            </div>
+          </div>
+          <div class="archi1__content ext_wrapper"> 
+            <div class="archi1__text1">
+              <ul class="archi1__list lis">
+                <li class="archi1__item">
+                  <h2 class="archi1__title_2">
+                    Когда было создано T+T Architects?
+                  </h2>
+                  <p>
+                    Наша компания формально очень молода: она была создана в начале 2012 года. Но команда, которую я возглавляю, сложилась гораздо раньше: несколько лет мы все работали в составе другого бюро. Некоторые из проектов, которые мы начали делать тогда, были закончены уже под новым брендом и по праву вошли в портфолио T+T Architects.
+                  </p>
+                  <h2 class="archi1__title_2">
+                    Насколько я понимаю, название бюро не связано с вашей фамилией?
+                  </h2>
+                  <p>
+                    «T+T» – это начальные буквы двух английских слов, transparent и territory, то есть «прозрачность» и «пространство». В этой формуле – суть нашего подхода к разработке архитектурных проектов. Открытость всех проектных решений, их обоснованность и понятность для заказчика, подрядчика и конечных потребителей – вот на что мы делаем ставку. Архитектура здания, его социальная и функциональная программа должны быть обоснованы факторов, окружением, логистикой, эстетической и общественной ценностью, всем тем, что сейчас принято называть «контекстом». Видимо поэтому многие наши объекты не обладают, скажем так, ярко выраженной, характерной именно для нас, стилистикой. Мы не ставим перед собой задачу реализовать в каждом 
+                  </p>
+                </li>
+                <li class="archi1__item">
+                  <p>
+                    многие наши объекты не обладают, скажем так, ярко выраженной, характерной именно для нас, стилистикой. Мы не ставим перед собой задачу реализовать в каждом проекте свое архитектурное эго, хотя лично я не вижу в этом ничего плохого. 
+                  </p>
+                  <h2 class="archi1__title_2">
+                    Как вы в таком случае характеризуете вашу архитектуру?
+                  </h2>
+                  <p>
+                    Говоря о наших архитектурных объектах и интерьерах, я бы сказал что все они максимально динамичны. Нас не привлекают сооружения, которые замкнуты сами на себя и существуют отдельно от города и людей, форты – не наша типология. Нам куда ближе проекты, похожие на «Белую площадь» - комплекс на крошечном клочке земли с насыщенной средой, ощущение Манхеттена в микромасштабе.
+                  </p>
+                  <h2 class="archi1__title_2">
+                    Иными словами, создаваемая среда для вас важнее формы?
+                  </h2>
+                  <p>
+                    Я бы сказал, взаимодействие объекта со средой важнее формы. Форма должна быть обусловлена средой, а не среду следует подгонять под форму. В этом смысле нам очень близок подход, когда любой проект представляется как набор четких, последовательных и логичных схем, вспомним, к примеру, Бьярке Ингельса. Все просто, берем для начала кубик в чистом поле, который затем трансформируется с учетом инсоляции,
+                  </p>
+                </li> 
+                <li class="archi1__item">
+                  <p>
+                    как набор четких, последо- вательных и логичных схем, вспомним, к примеру, Бьярке Ингельса. Все просто, берем для начала кубик в чистом поле, который затем трансформируется с учетом инсоляции, розы ветров, видовых характеристик, транспор- тной схемы, людских потоков. Накладывая одни факторы на другие, мы получаем искомую матрицу, и архитектура перестает быть чем-то неземным и загадочным, превращаясь в понятную и логичную науку. В своей работе мы старае
+                  </p>
+                </li> 
+                <li class="archi1__item">
+                  <p>
+                    В своей работе мы стараемся руководствоваться этими прин- ципами. Как говорится, если не можешь объяснить трехлетнему ребенку, почему сделал именно так, значит сделал что-то не то. 
+                  </p>
+                </li> 
+              </ul> 
+            </div> 
+          </div>
+        </div>
+        <!-- Archi 1 END -->
+
+        <!-- Archi 2 page -->
+        <div class="content_wrap archi2">
+          <div class="archi2__top wrapper">
+            <div class="padding_left wrapper">  
+              <h1 class="archi2__title_1">С.ТРУХАНОВ: <span class="archi2__title_1_red">ФОРМА ДОЛЖНА БЫТЬ ОБУСЛОВЛЕНА СРЕДОЙ</span></h1>
+            </div>
+          </div>
+          <div class="archi2__content">
+            <div class="archi2__text">
+              <h2 class="archi2__title_2">Я как раз хотела спросить вас, означает ли английское название компании вашу приверженность принципам современной западной архитектуры. По моим наблюдениям, они наиболее близки тем, кто учился за границей или проходил практику в иностранных бюро.</h2>
+              
+              <p class="p2">Нет западных или российских принципов архитектуры, они едины. Есть контекст, в котором реализуются эти принципы, а вот он уже разный, кардинально. Одно должно соответствовать другому, иначе объект, будь то здание или интерьер, станет лишь «арт-объектом». Здесь уже не важно где ты учился, для нас принципиально, насколько сотрудник склонен к дальнейшему самообучению, в T+T Architects работают выпускники МАрхИ и МГСУ, но это не мешает нам быть в курсе актуальных западных тенденций и лучших образцов российской и зарубежной архитектуры. </p>
+              
+              <h2 class="archi2__title_2">Как устроено бюро? У вас есть бригады или все проекты проходят через вас?</h2>
+              
+              <p class="p2">Мы бюро полного цикла, начинаем с разработки концепции, делаем всю рабочку и обычно заканчиваем сотрудничество с заказчиком, повесив последний светильник. В T+T Architects работают два независимых подразделения – архитектурное проектирование, которое возглавляет Александр Бровкин, и интерьерное проектирование под началом Владимира Чуканова. В каждом из них работает несколько бригад, а Александр и Владимир курируют все этапы их работы. Что же касается меня, то, конечно, финальное согласование каждого проекта провожу я, а вот над концепцией детально поработать получается далеко не всегда. Мы не авторское архитектурное бюро, и у нас нет «стилистического диктата». Есть общая идеология, подход к проектированию, ну и конечно же, СНиП «Красиво». Любая концепция – это совместное обсуждение и единогласное решение. </p>
+              
+              <h2 class="archi2__title_2">Какими качествами должен обладать архитектор, чтобы быть принятым на работу в ваше бюро?</h2>
+              
+              <p class="p2">Больше всего в людях и архитекторах я ценю активную жизненную и профессиональную позицию. Т.е. мы не принимаем в нашу команду людей, придерживающихся принципа «могу копать – могу не копать». Плюс это, конечно, должны быть люди, способные и готовые выдерживать жесткий темп работы, потому что основной пул наших заказов не предполагает долгого проектирования. Мы пока не проектируем крупные агломерациии, наша основная </p>
+            </div>
+          </div>
+        </div>
+        <!-- Archi 2 END -->
+
+        <!-- Project 8-1 -->
+        <div class="content_wrap project_8_1 wrapper">
+          <div class="project_8_1__top">
+            <div class="padding_left">  
+              <h1 class="project_8_1__title_1">ПРОЕКТ: <span class="project_8_1__title_1_red">STUDIO <span class="eight">8</span></span></h1>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="project_8_1__content wrapper">
+            <div class="project_8_1__text wrapper">
+                <span class="project_8_1__text_words">
+                Неподалеку от знаменитого поселка
+                <br>
+                &nbsp;художников на севере Москвы мастерская T+T
+                <br>
+                &nbsp;Architects проектирует комплекс апартаментов,
+                 <br>
+                &nbsp;решенный в эстетике современной
+                <br>
+                &nbsp;европейской дачи.</span>
+              </div>
+          </div>
+          <div class="project_8_1__footer wrapper">
+            <div class="project_8_1__footer_right">
+              <p class="project_8_1__location project_8_1__title_2">
+                <span class="project_8_1__title_2_red">расположение: 
+                </span>
+                 Россия. Москва проезд Аэропорта, 8
+              </p> 
+              <p class="project_8_1__group project_8_1__title_2">
+                <span class="project_8_1__title_2_red">авторский коллектив: 
+                </span>
+                 С.Труханов, А.Бровкин, П.Воеводина, Н.Макаров, Ю.Панферова, А.Толмачева, С.Слышенков, А.Дергунов, А.Бабушкин, О.Трусова
+              </p> 
+            </div>  
+          </div>  
+
+        </div>
+        <!-- Project 8-1 END -->
+
+        <!--  Project 8-2 -->
+        <div class="content_wrap project_8_2 wrapper">
+          <div class="project_8_2 wrapper">
+            <div class="project_8_2__left">
+              <div class="project_8_2__top">
+                <div class="padding_left">  
+                  <h1 class="project_8_2__title_1">ПРОЕКТ: <span class="project_8_2__title_1_red">STUDIO <span class="eight">8</span></span></h1>
+                </div>
+              </div>
+              <div class="project_8_2__content">
+                <div class="project_8_2__img_top">
+                  <img class="pr_8_2_top" src="images/project_8-2_img_top.jpg" alt="">
+                  <span class="project_8-2__plus_top"><a class="fancy" href="images/big_img1.jpg"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
+                </div>
+                <div class="project_8_2__img_bot">
+                  <img class="pr_8_2_bot" src="images/project_8-2_img_bot.jpg" alt="">
+                  <span class="project_8-2__plus_bot"><a class="fancy" href="images/big_img2.jpg"><img class="project_8-2__plus" src="images/plus.png" alt=""></a></span>
+                </div>
+              </div>
+              <div class="clear"></div> 
+            </div>  
+            <div class="project_8_2__right">
+              <div class="item1 project_8_2__text">
+                <p>Апартаменты будут построены неподалеку от Ленинградского проспекта, на территории опытного завода №408. Предприятие, занимающее чуть больше 1 га, уже выведено из города, а его корпуса ожидают реконструкции. Расположение бывшего завода трудно не признать удобным – 10 минут пешком до станции метро «Аэропорт», под боком Ленинградка и ТТК, – так что его перепрофилирование, что называется, было предрешено. Почти сразу инвестор определился и с новой функцией комплекса – стесненность территории и довольно высокая плотность существующей застройки не позволили бы создать здесь ни офисный центр, ни полноценное жилье с обязательной инфраструктурой. Разработать концепцию предстоящей реконструкции компания KR Properties пригласила своих давних партнеров – мастерскую T+T Architects. Правда, одной лишь реновацией дело не ограничилось: перед архитекторами была поставлена амбициозная задача создать новую типологию апартаментов.</p> 
+              
+              </div>  
+            </div>
+          </div>
+        </div>
+        <!--  Project 8-2 END -->
+
+        <!--  Project 8-3 -->
+        <div class="content_wrap project_8_3 wrapper">
+          <div class="project_8_3__top">
+            <div class="padding_left">  
+              <h1 class="project_8_3__title_1">ПРОЕКТ: <span class="project_8_3__title_1_red">STUDIO <span class="eight">8</span></span></h1></h1>
+            </div>
+          </div>
+          <div class="clear"></div>
+            <div class="project_8_3__text">
+              <p class="project_8_3__text_p">
+                Придумать нечто оригинальное заказчика заставило отнюдь не (только) тщеславие. Дело в том, что ближайшим соседом бывшего завода является жилой комплекс «Триумф-палас» – 260-метровый небоскреб, претендующий на стилистическое родство с семью сталинскими высотками. Будущие апартаменты отделены от «Триумф-паласа» лишь узким внутриквартальным проездом, и понятно, что габаритами и классом жилья с ним тягаться бессмысленно.
+              </p>
+              <p>
+                Но как-то обозначить, что новый комплекс имеет совершенно иное происхождение, девелоперу хотелось, и именно так он и сформулировал ТЗ для архитекторов – объект должен стать камерным и уютным городским кварталом, по возможности деликатно противостоя эстетике «элитного» и «закрытого» жилого комплекса «Триумф Палас». «Решение напрашивалось само собой: из-за разницы в этажности наш комплекс обращен к «Триумф-паласу» кровлей, поэтому мы превратили ее в пятый фасад», – рассказывает руководитель T+T Architects Сергей Труханов.
+
+              </p>
+            </div>
+        </div>
+        <!--  Project 8-3 END -->
+        
+        <!--  Project 8-4 -->
+        <div class="content_wrap project8-4">
+          <div class="project8-4_content wrapper">
+            <div class="project8-4_content_bakground">
+              <div class="ext_wrapper">
+                <div class="project8-4_topic f_left">
+                  ПРОЕКТ: <span>STUDIO <span class="num_wrap">8</span></span>
+                </div>
+                 <ul class="project8-4_text ext_wrapper f_right">
+                  <li class="project8-4_text_left f_left">За вдохновением архитекторы также обратились к ближайшему окружению – расположенный в пяти минутах езды поселок художников «Сокол» с его двухэтажной застройкой, скатными кровлями и тихими улочками стал одной из главных отправных точек в создании образа нового комплекса. Как поясняет Сергей Труханов, у знаменитого поселка T+T Architects
+                  </li>
+                  <li class="project8-4_text_right f_left">
+                    позаимствовали не конкретные приемы и решения, а саму эстетику старых дач и дачного времяпрепровождения. При этом  промышленное происхождение объекта подсказало стилистику loft, а решение сделать кровлю пятым фасадом подтолкнуло архитекторов обратиться к современной голландской архитектуре, которая очень любит экспериментировать с формой мансард. Из этих составляющих и родилась идеология комплекса: от «Сокола» авторы берут камерность и сомасштабность человеку, а также ритмику скатных крыш, переосмысляют в новых материалах и дополняют их бережно реконструированной кирпичной кладкой. Так завод №408 превратился в лофт-квартал Studio8: прошлое получает новую жизнь, органично прорастая в будущее.
+                  </li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  Project 8-4 END -->
+
+        <!--  Project 8-5 -->
+        <div class="content_wrap project_8-5 wrapper">
+          <div class="project_8-5__top">
+            <div class="padding_left">  
+              <h1 class="project_8-5__title_1">ПРОЕКТ: <span class="project_8-5__title_1_red">STUDIO <span class="eight">8</span></span></h1></h1>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="project_8-5__content wrapper">
+            <div class="ext_wrapper">
+              <div class="project_8-5__left_text">
+                Сложность заключалась еще и в том, что заводские корпуса оказались совершенно разными по своей конфигурации и глубине. Здесь есть и вполне компактные прямоbvvttугольные в плане объемы, и узкие вытянутые «вагончики», и очень крупное строение в центре участка с большой глубиной этажа. Поэтому мало было в целом набросать стилистику будущего комплекса – для каждого объема архитекторы искали свое эффективное решение. Часть территории расчищается от старых гаражей и полуразрушенных построек ради создания общественного пространства, внутренней пешеходной площади Studio8 и организации парковки (впрочем, необходимое число машиномест удалось получить только за счет более дорогих автоматизированных паркингов).
+              </div>
+              <div class="project_8-5__right_img">
+                <img class="right_images" src="images/STUDIO8_5_img_right.jpg" alt="">
+              </div>
+            </div>
+          </div>  
+        </div>
+        <!--  Project 8-5 END -->
+        
+        <!--  Project 8-6 -->
+        <div class="content_wrap project_8-6">
+          <div class="project_8-6_content wrapper">
+            <div class="project_8-6_content-left f_left">
+              <div class="content-left_topic">
+                ПРОЕКТ: <span>STUDIO <span class="num_wrap">8</span></span>
+              </div>
+               <div class="content-left_picture">
+                <img class="content-left_picture_image" src="images/project_8-6.jpg" > 
+               </div>
+            </div>
+              
+            <div class="project_8-6_content-right f_left">
+                <div class="content-right_text">
+                  Корпуса комплекса формируют самодостаточную композицию, эдакий мини-город в городе, в котором помимо главной площади есть несколько уютных двориков, переулков и проездов. Особую роль играет т.н. корпус Б – узкое здание сильно вытянутой формы, которое фактически служит стеной, отделяющей Studio8 от «Триумф-паласа»: конечно, уйти от прямого визуального контакта с небоскребом нельзя, но на уровне земли это здание позволяет обособить территорию нового комплекса. Похожим образом работает и такой же вытянутый в плане объем многоэтажного паркинга. Расположение на стыке двух принципиально разных стилистик нашло отражение в архитектуре этих объемов: паркинг обращен к соседней высотке нейтральными глухими стенами, а фасад жилого дома почти столь же наглухо защищен спущенной на него алюминиевой кровлей. Наверно, этот объем выглядел бы неприступной оцинкованной стеной, если бы архитекторы не раздробили его на отдельные секции, которые нарочито сместили относительно друг друга. Добавляет внешности здания дружелюбия и масштабное остекление бокового фасада. 
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--  Project 8-6 END -->
+
+        <!--  Project 8-7 -->
+        <div class="content_wrap project_8-7">
+          <div class="project_8-7__top padding_left">  
+            <h1 class="project_8-7__title_1">ПРОЕКТ: <span class="project_8-7__title_1_red">STUDIO <span class="eight">8</span></span></h1>
+          </div>
+          <div class="clear"></div> 
+          <div class="project_8-7__content ext_wrapper">
+              <div class="project_8-7__left_text">
+                  <ul class="project_8-7_left_list lis">
+                    <li class="project_8-7_left_item">
+                      <p>Сложнее всего было найти решение для самого габаритного корпуса А, глубина которого составляет почти 50 метров. Для того, чтобы обеспечить комфортную освещенность всех его помещений, а также придвинутого к нему почти вплотную корпуса Г, архитекторы довольно ощутимо сместили конки обеих кровель и использовали подкровельные витражи. Мансардные окна, решенные как элегантные металлические скобы, многократно усиливают этот динамизм: они похожи на головной убор, который вот-вот съедет на брови, если не держать голову высоко и ровно. Так и этот дом, смотря своим главным фасадом на проезд Аэропорта, не стесняется немного задрать нос: монументальное соседство совсем не смущает его, заставляя разве что чуть более тщательно продумать наряд и аксессуары к нему. Неслучайно на последнем «Золотом сечении» проект Studio8 был отмечен специальным дипломом за «Особо удачные решения в рамках стесненной застройки».</p>
+                    </li>
+                    <li class="project_8-7_left_item">
+                      <p>Кстати, про аксессуары – это отнюдь не фигура речи. В своей концепции реконструкции бывшего завода T+T Architects предусмотрели все возможные мелочи: и варианты отделки фасадов, и решения интерьеров, и систему навигации по комплексу. Даже в самой малой детали, будь то парковочный столбик, ограждение мусоросборочных площадок или указатели, авторы тщательно соблюдают выбранный ими стиль loft. Визитной карточкой квартала обещают стать и настенные граффити, которые подчеркнут его промышленное происхождение едва ли не столь же красноречиво, как и брутальные кирпичные стены.</p> 
+                      <p class="project_8-7_text_author">
+                        текст: Анна Мартовицкая
+                      <br>источник: archi.ru</p>
+                    </li>
+                </ul>
+              </div>
+              <div class="project_8-7__right_img">
+                  <ul class="project_8-7_right_list_img lis">
+                    <li class="right_list_img">
+                      <img class="right_img_8-7" src="images/STUDIO8_img1.jpg" alt="">
+                    </li>
+                    <li class="right_img_list">
+                        <img class="right_img_8-7" src="images/STUDIO8_img2.jpg" alt="">
+                    </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+        <!--  Roofpoint -->
+        <div class="content_wrap roofpoint ext_wrapper">
+          <div class="roofpoint__top ext_wrapper">
+            <div class="padding_left ext_wrapper">  
+              <h1 class="roofpoint__title_1">МЕДИА ПЛОЩАДКА: <span class="roofpoint__title_1_red">ROOF POINT</span></h1>
+            </div>
+          </div>
+          <div class="roofpoint__content ext_wrapper">
+            <div class="roofpoint__col">
+              <p>На сегодняшний день деловая среда предъявляет новые требования к форматам и скорости обмена информацией. Еще недавно отсутсвие гибкой коммуникативной структуры компании не считалось недостатком, а сегодня без этого невозможно себе представить ни один современный офис. Когда особое место в формировании образа компании, ее бренда занимает процесс коммуникации как с внутреннений средой (организация-заказчик-среда-общество), так и с внутренней (бренд-департамент-сотрудник). Именно поэтому на картах офисов компаний стали появляться различные формальные и неформальные коммуникационные точки: meeting point, coffee point, lounge zone, преследующие одну цель – ускорить обмен информацией, облегчить процесс общения, перестроить информационную среду организации таким образом, чтобы сделать бизнес эффективным.</p>
+              Проект “Roof Point” - новая точка на карте деловой коммуникации. “Roof Point” - event площадка, где не действуют правила заданой корпоративной культуры, где нет дресс-кода и иерархии. Зато есть интересные люди-собеседники, приглашенные гости-лекторы с актуальными темами из мира коммерческой недвижимости и не
+            </div>
+            <div class="ext_wrapper">
+              <div class="roofpoint__col">
+                только, атмосфера свободы и равенства, чай, плюшки и шампанское. Мы видим своей миссией образование качественного нового уровня делового общения через который будет реализовываться весь потенциал бизнес-среды для создания отличных проектов мирового уровня.
+              </div>
+              <div class="roofpoint__col">
+                Несмотря на то, что проект “Roof Point” обязан своим созданием компаниям T+T Architects и К.S. Buro и, безусловно, получил хороший инвестиционный пинок, проект будет развиваться самостоятельно. Например: темы для встреч определяют пользователи (не без сюрпризов и специальных гостей от организаторов).
+              </div>
+              <div class="roofpoint__col">
+                <p class="p2">Предлагаемые темы будут требовать серьезной подготовки как со стороны организаторов, и и со стороны приглашенных гостей, что несомненно повысит образовательную составляющую. Всю ценность проекта “Roof Point” создают посетители – то есть ВЫ, члены этого, по-сути, интеллектуального клуба.</p>
+              </div>
+            </div>
+            <div class="ext_wrapper">
+              <div class="ext_wrapper p3">
+                <div class="roofpoint__col2">
+                  <p>
+                    <img src="images/roofpoint_1.jpg" class="type1" alt="">
+                  </p>   
+                </div>
+                <div class="roofpoint__col">
+                  <p>
+                    <strong class="wait">Ждём вас на наших встречах!</strong>
+                  </p>
+                  <p class="p2">
+                    <img src="images/roofpoint_4.jpg" class="type2" alt="">
+                  </p>
+                  <img src="images/roofpoint_5.jpg" class="type2" alt="">
+                  
+                </div>
+              </div>
+              <div class="ext_wrapper">
+                <div class="roofpoint__col"><img src="images/roofpoint_2.jpg" class="type2" alt=""></div>
+                <div class="roofpoint__col"><img src="images/roofpoint_3.jpg" class="type2" alt=""></div>
+                <div class="roofpoint__col"><img src="images/roofpoint_6.jpg" class="type2" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  Roofpoint END -->
+
+</body>
+</html>
+
+

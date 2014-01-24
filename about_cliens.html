@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+  <!-- About Clients-->
+  <div class="content_wrap about_clients wrapper">
+    <div class="about_clients__top">
+      <div class="padding_left ext_wrapper">  
+        <h1 class="about_clients__title_1">О КОМПАНИИ: <span class="about_clients__title_1_red">ПАРТНЕРЫ</span></h1>
+      </div>
+    </div>
+    <div class="about_clients__content ext_wrapper">
+      <div class="about_clients__first_block1 f_left">
+        <p class="about_clients__list_top_item_text">
+            Компания Т+Т Architects обладает налаженными партнерскими связями. Среди наших клиентов крупнейшие застройщики и девелоперы Москвы и России, ведущие рекламные агенства, организации финаносового сектора.
+        </p>
+        <p class="about_clients__list_top_item_text">
+            Мы считаем, что находить общий язык - неотъемлемая часть нашей работы, поэтому мы одинаково хорошо работаем как с государственными организациями, региональными отделениями и головными компаниями.
+        </p>
+      </div>
+      <ul class="about_clients__list_top ext_wrapper">
+        <li class="about_clients__list_top_item">
+          <img src="images/partner1.jpg" alt="" class="about_clients__list_item_img width_img1">
+          <h3 class="about_clients__list_top_item_title">
+            Подрядная организация
+          </h3>
+          <p class="about_clients__list_top_item_text">
+            Совместно с компанией Pridex Group нами были реализованы проекты самой различной сложности и объемов. Были разработаны концепции интерьеров для крупных международных и российских компаний, которые в последствии были построены Pridex. Выступая для нас заказчиком, совместно в кратчайшие сроки реализованы проекты формата design & build.
+          </p>
+        </li>
+        <li class="about_clients__list_top_item">
+          <img src="images/partner2.jpg" alt="" class="about_clients__list_top_item_img width_img2">
+          <h3 class="about_clients__list_top_item_title">
+            Застройщик
+          </h3>
+          <p class="about_clients__list_top_item_text">
+            Компания Абсолют Недвижимость явялется одним из крупнейших застройщиков жилой недвижимости. Именно с совместной работы в рамках жилых комплексов "Переделкино" и "Московский город-парк" началось наше сотрудничество. Разработаны здание офиса продаж, общественные зоны жилых корпусов. Следющим шагом стал проект дополнительного офиса компании.
+          </p>
+        </li>
+        <li class="about_clients__list_top_item">
+          <img src="images/partner3.jpg" alt="" class="about_clients__list_top_item_img width_img3">
+          <h3 class="about_clients__list_top_item_title">
+            Девелопер
+          </h3>
+          <p class="about_clients__list_top_item_text">
+            На сегодняшний день компания МОРТОН - один из крупнейших девелоперов жилой недвижимости по Москве и Московской области. Нашим бюро был разработан проект офисных помещений и представительских зон компании МОРТОН, общей площадью 10 300 кв.м., расположенных в БЦ PREO-8. Проект реализовывался в формате design &amp; build, что накладывало дополнительную ответственность по соблюдению сроков реализации объекта.
+          </p>
+        </li>
+      </ul>
+      <div class="about_clients__first_block2 f_left">
+        <img src="images/partner4.jpg" alt="" class="about_clients__list_bot_item_img width_img4">
+        <h3 class="about_clients__list_bot_item_title">
+          Девелопер
+        </h3>
+        <p class="about_clients__list_bot_item_text">
+          Сотрудничесвто с компанией KR Properties началось в 2012 г. За это время для одного из крупнейших российских девелоперов нами были разработаны проекты реконструкции административных и промышленных зданий с изменением функционального назначения, выполнены проекты интерьеров для бизнес центров заказчика.
+        </p>
+      </div>
+      <ul class="about_clients__list_bot ext_wrapper">
+        <li class="about_clients__list_bot_item">
+          <img src="images/partner5.jpg" alt="" class="about_clients__list_bot_item_img width_img5">
+          <h3 class="about_clients__list_bot_item_title">
+            BTL агентство
+          </h3>
+          <p class="about_clients__list_bot_item_text">
+            Action работает на рынке маркетинговых услуг с 2004 года. За это время агентство стало большими, сохранив креативность и открытость.
+          </p>
+          <p class="about_clients__list_bot_item_text">
+            Сегодня Action - cамое рекомендуемое агентство на рынке. Совместо с руководством компании был создан интерьер их будущего офиса.
+          </p>
+        </li>
+        <li class="about_clients__list_bot_item">
+          <img src="images/partner6.jpg" alt="" class="about_clients__list_bot_item_img width_img6">
+          <h3 class="about_clients__list_bot_item_title">
+            Консалтинг в недвижимости
+          </h3>
+          <p class="about_clients__list_bot_item_text">
+            S.A. Ricci обладает уникальным опытом консультирования и реализации объектов редевелопмента. В портфеле несколько сот тысяч метров площадей таких девелоперских компаний как KR Properties, Horus Capital, Placon, Промсвязьнедвижимость, New Life Group и других. На совместных объектах компания выполняет функцию управления проектом и финансовый менеджмент проекта.
+          </p>
+        </li>
+        <li class="about_clients__list_bot_item">
+          <img src="images/partner7.jpg" alt="" class="about_clients__list_bot_item_img width_img7">
+          <h3 class="about_clients__list_bot_item_title">
+            Аудиторская компания
+          </h3>
+          <p class="about_clients__list_bot_item_text">
+            Для крупной аудиторской компании разработан проект офисных помещений на территории БЦ PREO-8. Необходимо было разместить на 6000 кв.м. основные функциональные департаменты заказчика. Проектирование велось в формате design &amp; build.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- About Clients END-->
+</body>
+</html>
+
+

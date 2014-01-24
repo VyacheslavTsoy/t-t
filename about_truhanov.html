@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!-- About Truhanov -->
+  <div class="content_wrap about_truhanov">
+    <div class="about_truhanov__top wrapper">
+      <div class="padding_left wrapper">  
+        <h1 class="about_truhanov__title_1">О КОМПАНИИ: <span class="about_truhanov__title_1_red">МИССИЯ</span></h1>
+      </div>
+    </div>
+    <div class="about_truhanov__content wrapper">
+      <div class="about_truhanov__content_left">
+        <div class="about_truhanov__text_top">
+          <span class="about_truhanov__text_words">
+            «T+T» – это начальные буквы двух английских 
+            <br>
+            &nbsp;слов, transparent и territory, то есть «прозрачность»
+            <br>
+            &nbsp;и «пространство». В этой формуле – суть нашего
+             <br>
+            &nbsp;подхода к разработке архитектурных проектов. 
+            <br>
+            &nbsp;Открытость всех проектных решений, их 
+            <br>
+            &nbsp;обоснованность и понятность для заказчика, 
+            <br>
+            &nbsp;подрядчика и конечных потребителей – вот на что 
+            <br>
+            &nbsp;мы делаем ставку.
+          </span>
+        </div>  
+        <div class="about_truhanov__text_bottom">
+          <ul class="awards_list">
+            <li class="awards_list_item award_ind">
+              <span class="award_time">2008</span>
+              Лауреат фестиваля «Под крышей дома 2008» за проект БЦ «Time Center»
+            </li>
+            <li class="awards_list_item">
+              <span class="award_time">2010</span>
+              <p class="award_ind">International (Europe &amp; Africa) Commercial Property Awards 2010 (London) – победитель в категории лучший архитектурный объект (офисное здание) – проект реставрации и приспособления под современное использование памятника регионального значения «Мельница И.А. Зарывного» г. Оренбург.</p>
+              специальный приз журнала «Качественная Архитектура» на АрхиКонкурс 2010
+            </li>
+            <li class="awards_list_item">
+              <span class="award_time">2013</span>
+              <p class="award_ind">почетный диплом «Золотое Сечение 2013» за проект loft квартал Studio #8</p>
+              <p class="award_ind">специальныйпобедитель Best Office Awards 2013 в номинации «Организация пространства»</p>
+              специальныйEurope Commercial Property Awards London - победитель в категории “Лучшая архитектура многофунционального жилого комплекса” за проетк Лофт-квартал Studio #8
+            </li>
+          </ul>
+        </div>
+        <div class="about_truhanov__logo_bot wrapper">
+                <a class="about_truhanov__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+              </div>
+      </div>
+      <div class="about_truhanov__content_right">
+        <h3 class="about_truhanov__title_name">
+          Сергей Труханов
+        </h3>
+        <p class="red">
+          Руководитель студии, основатель
+        </p>
+        <p>
+          Профессиональную карьеру начал в 2004 ггоду и уже в 2007 году организовал компанию Mealhouse Concept Design, в рамках которой проработал до 2011 года. С 2012 года возглавляет и является основателем архитектурного бюро Т+Т Architects. За время работы участвовал практически во всех проектах, выполненных в рамках бюро, от офисных интерьеров, до проектов реновации городских территорий.
+          2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ «Time Center»
+        </p>
+        <div class="about_truhanov__img">
+          <a class="lightbox" href="#">
+            <img class="about_truhanov_men" src="images/about_truhanov_men.jpg" alt="">
+          </a>
+          <span class="about_truhanov__plus">
+            <img class="about_truhanov__plus_images" src="images/plus.png" alt="">
+          </span> 
+        </div>
+      </div>
+      
+    </div>
+    </div>  
+  </div>
+  <!-- About Truhanov END-->
+</body>
+</html>
+
+

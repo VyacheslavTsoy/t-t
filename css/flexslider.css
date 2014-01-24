@@ -40,13 +40,12 @@
 	border-color: #9c0000;
 }
 
-#slider .slides>li{
+.content_wrap{
 	height: 100% !important;
 	width: 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
-	overflow-x: hidden;
 }
 #slider .flex-active-slide{
 	overflow-y: auto;

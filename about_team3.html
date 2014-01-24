@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!-- About Team 3-->
+        <div class="content_wrap about_team_3 wrapper">
+          <div class="about_team_3__top wrapper">
+            <div class="padding_left wrapper">  
+              <h1 class="about_team_3__title_1">О КОМПАНИИ: <span class="about_team_3__title_1_red">КОМАНДА</span></h1>
+            </div>
+          </div>
+          <div class="about_team_3__content wrapper">
+            <div class="about_team_3__content_left wrapepr">
+              <div class="about_team_3__text_top">
+                <span class="about_team_3__text_words">
+                  &nbsp;Наша компания формально очень молода: она была 
+                  <br>
+                  &nbsp;создана в начале 2012 года. Но команда сложилась 
+                  <br>
+                  &nbsp;гораздо раньше: несколько лет мы все работали в 
+                   <br>
+                  &nbsp;составе другого бюро. Некоторые из проектов, 
+                  <br>
+                  &nbsp;которые  мы начали делать тогда, были закончены
+                  <br>
+                  &nbsp;уже под новым брендом и по праву вошли в   
+                  <br>
+                  &nbsp;портфолио T+T Architects.
+                </span>
+                <span class="about_team_3__plus1">
+                  <a class="lightbox" href="#" data-item=".item1" data-parent=".about_team_3__content_right">
+                    <img class="about_team_3__images" src="images/plus.png" alt="">
+                  </a>
+                </span>
+                <span class="about_team_3__plus2">
+                  <a class="lightbox" href="#"  data-item=".item2" data-parent=".about_team_3__content_right">
+                    <img class="about_team_3__images" src="images/plus.png" alt="">
+                  </a>
+                </span>
+                <span class="about_team_3__plus3">
+                  <a class="lightbox" href="#" data-item=".item3" data-parent=".about_team_3__content_right">
+                    <img class="about_team_3__images" src="images/plus.png" alt="">
+                  </a>
+                </span>
+              </div>  
+              <div class="about_team_3__logo_bot wrapper">
+                  <a class="about_team_3__logo_bot_link" href="#"><img class="logo_img" src="images/logo_left_bot.png" alt=""></a>
+                </div>
+            </div>
+            <div class="about_team_3__content_right">
+              <div class="hide_item item1">
+                <h3 class="about_team_3__title_name">
+                  Макаров Николай
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+              <div class="hide_item item2">
+                <h3 class="about_team_3__title_name">
+                  dadawdadawdad
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+              <div class="hide_item item3">
+                <h3 class="about_team_3__title_name">
+                  3333
+                </h3>
+                <p class="about_team_3__red">
+                  Ведущий Архитектор
+                </p>
+                <p>
+                  В бюро «T+T Architects» руководит проектной группой, разработавшей рабочий проект благоустройства территории для офиса компании «KR-Properties», проект лофт-квартала апартаментов «Studio 8». Николай – сторонник аналитического подхода к работе, организует работу своей группы эффективно и рационально.
+                  2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- About Team 3 END-->
+</body>
+</html>
+
+
