@@ -1,6 +1,6 @@
-.project_8-6_content{width: 1024px;}
+.alcon_5_content{width: 1024px;}
 
-.project_8-6_content-left{
+.alcon_5_content-left{
 	height:768px;
 	width:75%;
 	background-color: #FFFFFF;
@@ -14,8 +14,8 @@
 .content-left_topic>span{
 	color: #ff0000;
 }
-.content-left_picture{
-	margin-top: 55px;
+.alcon_5_content-left_picture{
+	margin-top: 25px;
 }
 .content-left_picture_image{
 	width: 768px;
@@ -27,15 +27,22 @@
 	width: 130px;
 	position: absolute;
 }
-.content-right{
+.alcon_5_content-right{
 	height:768px;
 	width: 25%;
 	background-color: #464646;
 }
-.content-right_text{
+.alcon_5_content-right_text{
 	margin: 136px 24px 0px 24px;
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 15px; 
 	color:#ececec;
 	text-align: justify;
+}
+.alcon_5_content-right_text_author{
+	margin-top: 23px;
+	font-size: 12px;
+	line-height: 15px; 
+	color:#ececec;
+	text-align: right;
 }

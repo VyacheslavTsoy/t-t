@@ -1,0 +1,66 @@
+.alcon_1{
+	width: 1024px;
+}
+.alcon_1__top{
+	margin: 45px 0 49px 25px;
+}
+.alcon_1__title_1{
+	font-size: 32px;
+	color: #676767;
+}
+.alcon_1__title_1_red{
+	color: red;
+}
+.eight{
+	font-size: 44px;
+	display: inline-block;
+	margin-top: -11px;
+}
+/*==============>top end<================*/
+.alcon_1__content{
+	background: url('../images/img_alcon_1.jpg');
+	background-repeat:no-repeat;
+	background-size: 1024px;
+	height: 506px;
+}
+.alcon_1__text{
+	width: 440px;
+	color: #e6e6e6;
+	margin: 361px 0 0 35px;
+}
+.alcon_1__text_words{
+    background-color: #464646;
+	font-size: 19px;
+	padding: 0px 4px;
+	margin-top: 5px;
+	line-height: 23px;
+}
+/*==============>content end<================*/
+.alcon_1__footer{
+	margin: 23px 0;
+	font-size: 13px;
+	line-height: 18px;
+}
+.alcon_1__logo_bot{
+	float: left;
+	margin-top: 25px;
+}
+.logo_img{
+	width: 130px;
+}
+.alcon_1__footer_right{
+	float: right;
+	width: 370px;
+	margin-right: 115px;
+}
+.alcon_1__title_2{
+	color: #646464;
+	text-align: left;
+	margin-bottom: 0;
+}
+.alcon_1__title_2_red{
+	color: red;
+}
+.alcon_1__group{
+	margin: 9px 0 9px 0;
+}

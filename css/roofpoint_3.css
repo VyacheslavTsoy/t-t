@@ -1,0 +1,33 @@
+.roofpoint_3_topic{
+	margin: 55px 0 0 27px;
+	font-family:"helveticaneuecyrthin", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 17px;
+	color:#464646;
+}
+.roofpoint_3_topic>span{
+	color: #ff0000;
+}
+.roofpoint_3{
+	background: url(../images/bg_roofpoint_3.jpg);
+	background-size:cover;
+}
+.roofpoint_3_logotip_img{
+	width: 129px;
+	position: absolute;
+	margin-top: -79px;
+}
+.roofpoint_3_text{color:#292e31;
+	text-align: justify;
+	font-size: 13px;
+	line-height: 15px;
+	margin-top: 87px;
+}
+.roofpoint_3_text_left{
+	width: 207px; 
+}
+.roofpoint_3_text_right{
+	width: 207px;
+	margin-left: 52px;
+	margin-right: 24px;
+}

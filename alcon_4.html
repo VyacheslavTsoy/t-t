@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!--  Alcon 4 -->
+  <div class="content_wrap alcon_4">
+    <div class="alcon_4__top padding_left">  
+      <h1 class="alcon_2__title_1">ПРОЕКТ: <span class="alcon_2__title_1_red">ALCON <span class="eight">2</span></span></h1>
+    </div>
+    <div class="clear"></div> 
+    <div class="alcon_4__content ext_wrapper">
+        <div class="alcon_4_content">
+            <div class="alcon_4_text_left">
+              <p>Сделав ставку на простоту и лаконичность палитры интерь- ера центрального вестибюля, архи- текторы фактически трактовали его как фон. «Фон для параметричес- кой структуры системы освещения, будь то кристаллическая решетка или волна, которая в этом простор- ном и светлом пространстве ста- новится главным действующим лицом»,  – комментирует руко- водитель отдела концепций T+T Architects Полина Воеводина. Решив сделать светильники ви- зитной карточкой всего проекта, T+T Architects стремились найти для них форму знаковую, но не кричащую. После долгих раз- думий свой выбор они оста- новили на образе волны – в меру абстрактном и при этом очевид- но перекликающимся с пласти- кой главного фасада, который словно оплетен широкими гори- зонтальными лентами из стекла и камня. Световая волна должна пройти сквозь все общественные зоны 1 этажа, причем архи- текторы расщепляют ее на два хоть и переплетающихся, но не- зависимых потока, один из которых служит для освещения транзитной зоны, а другой, соответственно, основной. Проек- Проектом</p>
+            </div>
+            <div class="alcon_4_text_right">
+              <p>
+                том предусмотрено два варианта исполнения волны: это может быть волна-облако, состоящая из тонких «лучей» светодиод- ных элементов, пущенных пара- ллельно друг другу, или волна- решетка, в которой эти «лучи» образуют кристаллические со- единения, построенные по прин- ципу параметрического проек- тирования
+              </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--  Alcon 4 END-->
+
+</body>
+</html>
+
+

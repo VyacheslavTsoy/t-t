@@ -6,7 +6,7 @@
 	font-style: italic;
 }
 .about_truhanov__top{
-	margin: 46px 0 60px 25px;
+	padding: 46px 0 60px 25px;
 }
 .about_truhanov__title_1{
 	font-size: 32px;
@@ -79,8 +79,8 @@
 	margin: 10px 0;
 }
 .about_truhanov__img{
-	position: relative;
-	margin: 98px 0 0 10px;
+	/* position: relative;
+	margin: 98px 0 0 10px; */
 }
 .about_truhanov__plus{
 	display: block;

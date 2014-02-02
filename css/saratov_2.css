@@ -1,14 +1,14 @@
-.project_8-7{
+.saratov_2{
 	width: 1024px;
 }
-.project_8-7__top{
-	padding: 45px 0 75px 25px;
+.saratov_2__top{
+	margin: 45px 0 75px 25px;
 }
-.project_8-7__title_1{
+.saratov_2__title_1{
 	font-size: 32px;
 	color: #676767;
 }
-.project_8-7__title_1_red{
+.saratov_2__title_1_red{
 	color: red;
 }
 .eight{
@@ -17,30 +17,32 @@
 	margin-top: -11px;
 }
 /*==============>top end<================*/
-.project_8-7__content{
+.saratov_2__content{
 	position: relative;
 	padding-left: 25px;
 	text-align: justify;
 	font-size: 13px;
 	line-height: 15px;
 }
-.project_8-7_left_item{
-	float: left;
+.svaratov_2_text_left{
 	width: 206px;
-	margin-left: 50px;
+	float: left;
+	margin-right: 115px;
 }
-.project_8-7_left_item:first-child{
-	margin-left: 0; 
+.svaratov_2_box_img{
+	float: left;
 }
-.project_8-7_author{
-	padding-top: 36px;
-	text-align: right;
-}
-.project_8-7__right_img{
+.svaratov_2_text_left2{
+	width: 206px;
 	float: right;
+	margin-right: 25px;
 }
-.right_img_8-7{
-	width: 487px;
+
+.img_sratov_2{
+	width: 312px;
+}
+.svaratov_box{
+	width: 312px;
 }
 .project_8-7__logo_bot{
 	position: absolute;

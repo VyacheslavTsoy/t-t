@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!--  Saratov 5 -->
+  <div class="content_wrap saratov_5">
+    <div class="saratov_5__top padding_left">  
+      <h1 class="saratov_5__title_1">ПРОЕКТ: <span class="saratov_5__title_1_red">МЕЛЬНИЦА ШМИДТА</span></h1>
+    </div>
+    <div class="clear"></div> 
+    <div class="saratov_5__content ext_wrapper">
+        <div class="saratov_5_content">
+            <div class="svaratov_5_text">
+              <p>Котельный корпус с эффектным ступенчатым фронтоном и характерной кирпичной трубой, на небольшом удалении – небольшой одноэтажный объем, в котором когда-то располагалась администрация фабрики, и бывший склад готовой продукции, а вокруг все довольно плотно застроено разномастными объемами советского периода. Причем если исторические здания в свое время были возведены ближе к дороге, то строения середины прошлого века заняли пространство между ними и водохранилищем. Художественной ценности в них нет никакой, однако нельзя не признать определенную логику их размещения: когда в советские годы фабрика получила добро на расширение своих владений, эти постройки фактически зафиксировали внешние границы участка. По похожему сценарию намерены действовать и T+T Architects – в первую очередь ради создания своего рода ширм, защищающих внутренний двор проектируемого комплекса от расположенных рядом других промзон. Именно поэтому авторы проекта формируют две основных линии застройки – западную и восточную, которые становятся своего рода стенами создаваемого мини-города.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--  Saratov 2 END-->
+
+</body>
+</html>
+
+

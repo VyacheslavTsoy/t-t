@@ -41,11 +41,21 @@
 }
 
 .content_wrap{
-	height: 100% !important;
-	width: 100%;
+	position: relative;
+	width: 1024px;
+	height: 768px;
+}
+.content_wrap:after{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 25px;
+	width: 130px;
+	height: 55px;
+	background: url(../images/logo_left_bot.png) 0 0 no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	position: relative;
+	content: "";
 }
 #slider .flex-active-slide{
 	overflow-y: auto;

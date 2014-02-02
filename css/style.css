@@ -15,6 +15,22 @@
 @import "../css/about_team_3.css";
 @import "../css/about_clients.css";
 @import "../css/roofpoint.css";
+@import "../css/roofpoint_1.css";
+@import "../css/roofpoint_2.css";
+@import "../css/roofpoint_3.css";
+@import "../css/roofpoint_4.css";
+@import "../css/saratov_1.css";
+@import "../css/saratov_2.css";
+@import "../css/saratov_3.css";
+@import "../css/saratov_4.css";
+@import "../css/saratov_5.css";
+@import "../css/saratov_6.css";
+@import "../css/saratov_7.css";
+@import "../css/alcon_1.css";
+@import "../css/alcon_2.css";
+@import "../css/alcon_3.css";
+@import "../css/alcon_4.css";
+@import "../css/alcon_5.css";
 @import "../fonts/fonts.css";
 @import "../css/flexslider.css";
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
@@ -59,7 +75,7 @@ body{
 .p_rel{position: relative;}
 .p_fix{position: fixed;}
 .clear {clear:both;width:100%;line-height:0;font-size:0;}
-.wrapper {overflow:hidden;width: 100%;}
+.wrapper {overflow:hidden;}
 .ext_wrapper {overflow:hidden;}
 
 .f_elem *:first-child{margin-top: 0 !important;}
@@ -166,8 +182,10 @@ h1.logo{
 /*=====================> Home Page ========================*/
 
 .home_page{
-  background: url("../images/item1_bg.jpg") 50% 50% no-repeat;
+  background: url("../images/item1_bg.jpg") 0 0 no-repeat;
   color: #fff;
+  -webkit-background-size: 1024px 768px;
+  background-size: 1024px 768px;
 }
 
   .home_banner{

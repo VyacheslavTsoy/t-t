@@ -6,7 +6,7 @@
 	line-height: 15px;
 }
 .archi2__top{
-	margin: 43px 0 26px 25px;
+	padding: 43px 0 26px 25px;
 }
 .archi2__title_1{
 	font-size: 32px;
@@ -20,10 +20,12 @@
 /*==============>top end<================*/
 .archi2__text{
 	width: 539px;
+	max-height: 508px;
+	overflow-y: auto;
 	background: url('../images/background_text_archi2.png');
 	padding: 29px 125px 33px 85px;
 	color: #464646;
-	margin: 0 0 89px 144px;
+	margin: 0 auto 89px;
 	text-align: justify;
 }
 .archi2__title_2{

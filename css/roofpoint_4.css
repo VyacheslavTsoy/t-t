@@ -1,9 +1,8 @@
-.project_8-6_content{width: 1024px;}
+.roofpoint_4_content{width: 1024px;}
 
-.project_8-6_content-left{
+.roofpoint_4_content-left{
 	height:768px;
 	width:75%;
-	background-color: #FFFFFF;
 }
 .content-left_topic{
 	margin: 43px 0 0 27px;
@@ -18,7 +17,7 @@
 	margin-top: 55px;
 }
 .content-left_picture_image{
-	width: 768px;
+	width: 776px;
 }
 .content-left_logotip{
 	margin-top: 32px; 
@@ -27,15 +26,21 @@
 	width: 130px;
 	position: absolute;
 }
-.content-right{
+.roofpoint_4_content-right{
 	height:768px;
 	width: 25%;
-	background-color: #464646;
 }
-.content-right_text{
-	margin: 136px 24px 0px 24px;
+.roofpoint_4_content-right_text{
+	margin: 136px 20px 0px 45px;
 	font-size: 13px;
-	line-height: 15px; 
-	color:#ececec;
+	line-height: 15px;
+	color: #464646; 
 	text-align: justify;
+}
+.roofpoint_4_content-right_text_author{
+	margin-top: 23px;
+	font-size: 12px;
+	line-height: 15px; 
+	color:#464646;
+	text-align: right;
 }

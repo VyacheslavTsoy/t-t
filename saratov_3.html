@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+   <script src="js/script.js"></script>
+   <script type="text/javascript">
+      $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+      });
+   </script>
+  <!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!--  Saratov 3 -->
+  <div class="content_wrap saratov_3">
+    <div class="saratov_3__top padding_left">  
+      <h1 class="saratov_3__title_1">ПРОЕКТ: <span class="saratov_3__title_1_red">МЕЛЬНИЦА ШМИДТА</span></h1>
+    </div>
+    <div class="clear"></div> 
+    <div class="saratov_3__content ext_wrapper">
+        <div class="saratov_3_content">            
+            <div class="svaratov_3_text">
+              <p>Восточное крыло возводится с нуля, служа продолжением расположен- ного у самой улицы Чернышевского двухэтажного исторического кор- пуса, тогда как западное пред- ставляет собой сложный конгло- мерат новых, сохраняемых и части- чно надстраиваемых зданий. Архи- тектура этих объемов всецело про- диктована духом места, хотя выбранный кирпичный стиль T+T Architects обогащают подчеркнуто современной пластикой. Пожалуй, особенно характерен корпус Е-1, с которого со стороны улицы Черны- шевского начинается западное кры- ло. Он возводится в контуре стен старого здания, но внешность имеет абсолютно современную. Трехэтаж- ный прозрачный объем архитекторы оборачивают краснокирпичной «шкурой» высотой в два этажа, а затем со стороны улицы припо- днимают эту оболочку на полтора этажа – к дороге параллелепипед, таким образом, обращен полностью остекленным углом, который про- дублирован прозрачным клином верхнего уровня с обратной сто- роны дома. «Это здание – одно из немногих, фасад которого виден с улицы, и мы решили, что он просто обязан стать новым городским ориентиром, но при этом, конечно, не спорить с центральным объемом, поэтому и действуем здесь, в основном, за счет тектоники, тогда как по своей палитре он ничем не выделяется из общего массива застройки», – поясняет глава T+T Architects Сергей Труханов.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--  Saratov 3 END-->
+
+</body>
+</html>
+
+

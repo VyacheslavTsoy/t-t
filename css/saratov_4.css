@@ -1,0 +1,45 @@
+.saratov_4{
+	width: 1024px;
+}
+.saratov_4__top{
+	margin: 45px 0 17px 25px;
+}
+.saratov_4__title_1{
+	font-size: 32px;
+	color: #676767;
+}
+.saratov_4__title_1_red{
+	color: red;
+}
+.eight{
+	font-size: 44px;
+	display: inline-block;
+	margin-top: -11px;
+}
+/*==============>top end<================*/
+.saratov_4__content{
+	position: relative;
+	padding-left: 10px;
+	text-align: justify;
+	font-size: 13px;
+	line-height: 15px;
+	background: url(../images/bg_saratov_4.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 768px;
+}
+.svaratov_4_text{
+	margin-top: 45px;
+	width: 206px;
+	float: left;
+	color: #292e31;
+}
+
+.project_8-7__logo_bot{
+	position: absolute;
+	left: 0;
+	bottom: 24px;
+}
+.logo_img{
+	width: 130px;
+}

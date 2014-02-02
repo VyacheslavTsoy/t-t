@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta name = "format-detection" content = "telephone=no" />
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+	 <script src="js/jquery.flexslider.js"></script>
+	 <script src="js/jquery.easing.1.3.js"></script>
+   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	 <script src="js/script.js"></script>
+	 <script type="text/javascript">
+		  $(window).load(function() {
+       
+        $(".lightbox").click(function(){
+          var item = $(this).attr("data-item");
+          var parent = $(this).attr("data-parent");
+
+          show(item,parent)
+        })
+
+        $(".fancy").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+        function show(item, parent){
+          $(parent).find("div").hide();
+          $(parent).find(item).show();
+        } 
+			});
+	 </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. Fr a faster, safer browsing oexperience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+
+        
+        <!--  Roof Point_4 -->
+        <div class="content_wrap roofpoint_4">
+          <div class="roofpoint_4_content wrapper">
+            <div class="roofpoint_4_content-left f_left">
+              <div class="content-left_topic">
+                ПРОЕКТ: <span>ROOF POINT</span>
+              </div>
+               <div class="content-left_picture">
+                <img class="content-left_picture_image" src="images/img_roofpoint_4.jpg" > 
+               </div>
+            </div>
+              
+            <div class="roofpoint_4_content-right f_left">
+                <div class="roofpoint_4_content-right_text">
+                  В конце рабочей зоны находится Roof Point - любимое всеми "место сбора", предназначенное для встреч, лекций, дискуссий и дружеского общения. Фокусная точка всего офисного пространства - огромное полукруглое окно в торцевой стене, которое закрывают экраном только на время лекций. Одна часть Roof Point представляет собой уютную лаунж-зону с оригинальной мебелью из дерева и травертина (Kreoo, Италия), другую занимает барная стойка. Напротив полукруглого окна с экраном - компактная конструкция с уступами-сиденьями для зрителей, отдаленно напоминающая русскую печку. На это сказочное место философски смотрит огромная сова, нарисованная на стеклянной стене около бара, стилизованная в духе орнаментальных фантазий финского иллюстратора Клауса Хаапаниеми.
+                  <p class="roofpoint_4_content-right_text_author">
+                    текст: Анна Мартовицкая<br>
+                    источник: www.archi.ru
+                  </p>   
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--  Roof Point_4 END -->
+
+        
+
+</body>
+</html>
+
+

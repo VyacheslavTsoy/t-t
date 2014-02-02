@@ -1,6 +1,6 @@
-.project_8-6_content{width: 1024px;}
+.alcon_3_content{width: 1024px;}
 
-.project_8-6_content-left{
+.alcon_3_content-left{
 	height:768px;
 	width:75%;
 	background-color: #FFFFFF;
@@ -27,12 +27,12 @@
 	width: 130px;
 	position: absolute;
 }
-.content-right{
+.alcon_3_content-right{
 	height:768px;
 	width: 25%;
 	background-color: #464646;
 }
-.content-right_text{
+.alcon_3_content-right_text{
 	margin: 136px 24px 0px 24px;
 	font-size: 13px;
 	line-height: 15px; 
