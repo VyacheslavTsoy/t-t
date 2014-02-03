@@ -355,28 +355,6 @@ h1{
 
 
 /*================================>> hovers <<========================================*/
-a,
-#carousel img{
-    -webkit-transition: all 0.7s ease;
-    -moz-transition: all 0.7s ease;
-    -o-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-}
-a:hover,
-#carousel img:hover{
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-#carousel,
-.navigation_box img{
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
 
 
 

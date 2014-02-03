@@ -16,6 +16,10 @@
 .about_truhanov__title_1_red{
 	color: red;
 }
+
+.about_truhanov .lightbox{
+	bottom: 0;
+}
 /*==============>top end<================*/
 
 .about_truhanov__content_left{

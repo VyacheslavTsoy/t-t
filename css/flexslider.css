@@ -57,6 +57,9 @@
 	background-size: cover;
 	content: "";
 }
+.n_logo:after{
+	display: none;
+}
 #slider .flex-active-slide{
 	overflow-y: auto;
 }
