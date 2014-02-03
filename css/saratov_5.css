@@ -2,7 +2,7 @@
 	width: 1024px;
 }
 .saratov_5__top{
-	margin: 45px 0 17px 25px;
+	padding: 45px 0 17px 25px;
 }
 .saratov_5__title_1{
 	font-size: 32px;
@@ -32,7 +32,7 @@
 	float: right;
 	text-align: justify;
 	background: url('../images/bg_text.png');
-	padding: 35px 23px 3px 23px;
+	padding: 35px 23px 62px 23px;
 	color: #e6e6e6;
 	font-size: 13px;
 }

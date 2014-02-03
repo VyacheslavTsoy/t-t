@@ -2,7 +2,7 @@
 	width: 1024px;
 }
 .saratov_4__top{
-	margin: 45px 0 17px 25px;
+	padding: 45px 0 17px 25px;
 }
 .saratov_4__title_1{
 	font-size: 32px;
@@ -26,7 +26,7 @@
 	background: url(../images/bg_saratov_4.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: 768px;
+	height: 670px;
 }
 .svaratov_4_text{
 	margin-top: 45px;
