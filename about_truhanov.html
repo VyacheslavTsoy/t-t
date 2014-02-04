@@ -9,11 +9,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.1.1.js"></script>
-	 <script src="js/jquery.flexslider.js"></script>
-	 <script src="js/jquery.easing.1.3.js"></script>
-   <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-  <script src="fancybox/jquery.fancybox-1.3.4.js"></script>
-  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 	 <script src="js/script.js"></script>
 	 <script type="text/javascript">
 		  $(window).load(function() {
@@ -22,16 +17,11 @@
           var item = $(this).attr("data-item");
           var parent = $(this).attr("data-parent");
 
-          show(item,parent)
+          show(item,parent);
         })
 
-        $(".fancy").fancybox({
-          'overlayShow' : false,
-          'transitionIn'  : 'elastic',
-          'transitionOut' : 'elastic'
-        });
         function show(item, parent){
-          $(parent).find("div").hide();
+          // $(parent).find("div").hide();
           $(parent).find(item).show();
         } 
 			});
@@ -98,18 +88,20 @@
         </div>
       </div>
       <div class="about_truhanov__content_right">
-        <h3 class="about_truhanov__title_name">
-          Сергей Труханов
-        </h3>
-        <p class="red">
-          Руководитель студии, основатель
-        </p>
-        <p>
-          Профессиональную карьеру начал в 2004 ггоду и уже в 2007 году организовал компанию Mealhouse Concept Design, в рамках которой проработал до 2011 года. С 2012 года возглавляет и является основателем архитектурного бюро Т+Т Architects. За время работы участвовал практически во всех проектах, выполненных в рамках бюро, от офисных интерьеров, до проектов реновации городских территорий.
-          2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ «Time Center»
-        </p>
+        <div class="hide_item">
+          <h3 class="about_truhanov__title_name">
+            Сергей Труханов
+          </h3>
+          <p class="red">
+            Руководитель студии, основатель
+          </p>
+          <p>
+            Профессиональную карьеру начал в 2004 ггоду и уже в 2007 году организовал компанию Mealhouse Concept Design, в рамках которой проработал до 2011 года. С 2012 года возглавляет и является основателем архитектурного бюро Т+Т Architects. За время работы участвовал практически во всех проектах, выполненных в рамках бюро, от офисных интерьеров, до проектов реновации городских территорий.
+            2008 г. – Лауреат фестиваля «Под крышей дома 2008» за проект БЦ «Time Center»
+          </p>
+        </div>
         <div class="about_truhanov__img">
-          <a class="lightbox" href="#">
+          <a class="lightbox" href="javascript:;" data-parent=".about_truhanov__content_right" data-item=".hide_item">
             <img class="about_truhanov_men" src="images/about_truhanov_men.jpg" alt="">
             <span class="about_truhanov__plus">
             <img class="about_truhanov__plus_images" src="images/plus.png" alt="">
