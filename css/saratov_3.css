@@ -30,7 +30,9 @@
 .svaratov_3_text{
 	width: 206px;
 	float: right;
-	margin-right: 25px;
+	padding-right: 25px;
+	box-shadow: -30px 0 70px #fff;
+	background: rgba(255,255,255,0.8);
 }
 
 .project_8-7__logo_bot{
